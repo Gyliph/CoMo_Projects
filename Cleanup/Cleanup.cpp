@@ -25,6 +25,9 @@
 #include "OfflineMapSyncParameters.h"
 #include "QTimer.h"
 
+#include <QApplication>
+#include <QProcess>
+
 #include "Cleanup.h"
 #include "attributetable.h"
 
@@ -49,7 +52,6 @@ Cleanup::Cleanup(QQuickItem* parent /* = nullptr */):
     m_offlineMapTask(nullptr),
     m_offlineMapSyncTask(nullptr),
     iterOffset(0),
-    currentTable(0),
     m_syncProgress(0.0),
     m_syncText(),
     syncInterval(30000)
@@ -70,10 +72,11 @@ Cleanup::~Cleanup()
 void Cleanup::init(){
     qmlRegisterType<MapQuickView>("Esri.Cleanup", 1, 0, "MapView");
     qmlRegisterType<Cleanup>("Esri.Cleanup", 1, 0, "Cleanup");
-    qmlRegisterUncreatableType<AuthenticationManager>("Esri.Cleanup", 1, 0, "AuthenticationManager*", "Uncreatable");
-    qmlRegisterUncreatableType<PopupManager>("Esri.Cleanup", 1, 0, "PopupManager", "Uncreatable");
-    qmlRegisterUncreatableType<LegendInfoListModel>("Esri.Cleanup", 1, 0, "LegendInfoListModel", "Uncreatable");
-    qmlRegisterUncreatableType<AttributeListModel>("Esri.Cleanup", 1, 0, "AttributeListModel", "Uncreatable");
+
+    qRegisterMetaType<AuthenticationManager*>("AuthenticationManager*");
+    qRegisterMetaType<PopupManager*>("PopupManager*");
+    qRegisterMetaType<LegendInfoListModel*>("LegendInfoListModel*");
+    qRegisterMetaType<AttributeListModel*>("AttributeListModel*");
 }
 
 //PURPOSE: Runs on startup
@@ -83,10 +86,16 @@ void Cleanup::componentComplete()
 {
     QQuickItem::componentComplete();
 
+    if(qApp->arguments().size() <= 2){
+        qApp->arguments().append("relaunch");
+        QProcess::startDetached(qApp->arguments()[0], qApp->arguments());
+        QTimer::singleShot(250, qApp, SLOT(quit()));
+    }
+
     //Get data path of MMPK and the URL of feature service
     QString dataPath = QDir::currentPath();
     mmpkPath = dataPath + "/Cleanup_MMPK";
-    m_map = new Map(QUrl("http://gocolumbiamo.maps.arcgis.com/home/item.html?id=45414a367c7742f395f2b2cb1421337a"));
+    m_map = new Map(QUrl(cleanupServiceURL));
 
     //find QML MapView component
     m_mapView = findChild<MapQuickView*>("mapView");
@@ -175,9 +184,6 @@ void Cleanup::makeConnections(){
     listen_Identify();//Setup listeners for feature identification
     listen_Query();//Setup listeners for feature querying
 
-    //listen_Table();//Setup listeners for attribute table
-    //buildTable();//Build the attribute table for the first time
-
     connect(m_offlineMap->legendInfos(), &LegendInfoListModel::fetchLegendInfosCompleted, this, [this](){
         m_legendInfoListModel = m_offlineMap->legendInfos();
         emit legendInfoListModelChanged();
@@ -231,30 +237,6 @@ void Cleanup::listen_Query(){
     }
 }
 
-//PURPOSE: Listener for attribute table
-//PARAMETERS: N/A
-//RETURN: N/A
-/*void Cleanup::listen_Table(){
-    FeatureLayer* fl(nullptr);
-    for(int i = iterOffset; i < m_offlineMap->operationalLayers()->size(); i++){
-        fl = static_cast<FeatureLayer*>(m_offlineMap->operationalLayers()->at(i));
-        connect(fl->featureTable(), &FeatureTable::queryFeaturesCompleted, this, [this, fl](QUuid, Esri::ArcGISRuntime::FeatureQueryResult* fqResult){
-            m_fieldNames = fqResult->iterator().features().at(0)->attributes()->attributeNames();
-            emit fieldNamesChanged();
-            m_tableList = fqResult->iterator().features().at(0)->attributes();
-            emit tableListChanged();
-            for(int i = 0; i < fqResult->iterator().features().size(); i++){
-                QVariantMap newEl;
-                AttributeListModel* alm = fqResult->iterator().features().at(i)->attributes();
-                for(int x = 0; x < alm->attributeNames().size(); x++){
-                    newEl.insert(alm->attributeNames().at(x), alm->attributeValue(alm->attributeNames().at(x)));
-                }
-                m_attTable->appendElement(newEl);
-            }
-        });
-    }
-}*/
-
 //PURPOSE: Listener for feature identification
 //PARAMETERS: N/A
 //RETURN: N/A
@@ -276,24 +258,6 @@ void Cleanup::listen_Identify(){
         }
     });
 }
-
-//PURPOSE: Build or rebuild the attribute table and setup signals for the table
-//PARAMETERS: N/A
-//RETURN: N/A
-/*void Cleanup::buildTable() {
-    m_attTable = new AttributeTable();
-
-    connect(m_attTable, &AttributeTable::dataAppended, this, [this](QVariantMap el){ emit dataAppended(el); });
-    connect(m_attTable, &AttributeTable::dataRemoved, this, [this](QVariantMap el){ emit dataRemoved(el); });
-    connect(m_attTable, &AttributeTable::listCleared, this, [this](){ emit listCleared(); });
-
-    FeatureLayer* fl(nullptr);
-    fl = static_cast<FeatureLayer*>(m_offlineMap->operationalLayers()->at(currentTable));
-    emit changeTableName(fl->name());
-    QueryParameters qp;
-    qp.setWhereClause("1=1");//Query for every single feature for the table
-    fl->featureTable()->queryFeatures(qp);
-}*/
 
 //PURPOSE: Set popup manager anytime it changes
 //PARAMETERS: N/A
@@ -340,41 +304,45 @@ void Cleanup::setSyncText(QString str){
 //PARAMETERS: syncDir enumerated input
 //RETURN: N/A
 void Cleanup::startSyncJob(int syncDir){
-    if(m_offlineMapSyncTask->loadStatus() == LoadStatus::Loaded){
-        OfflineMapSyncParameters* omsp = new OfflineMapSyncParameters();
-        omsp->setRollbackOnFailure(true);
-        omsp->setSyncDirection(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir));
-        OfflineMapSyncJob* omsj = m_offlineMapSyncTask->syncOfflineMap(*omsp);
+    try{
+        if(m_offlineMapSyncTask->loadStatus() == LoadStatus::Loaded){
+            OfflineMapSyncParameters* omsp = new OfflineMapSyncParameters();
+            omsp->setRollbackOnFailure(true);
+            omsp->setSyncDirection(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir));
+            OfflineMapSyncJob* omsj = m_offlineMapSyncTask->syncOfflineMap(*omsp);
 
-        if(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir) == SyncDirection::Download){
-            setSyncText(QString("Downloading"));
-        }else if(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir) == SyncDirection::Upload){
-            setSyncText(QString("Uploading"));
-        }else if(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir) == SyncDirection::Bidirectional){
-            setSyncText(QString("Downloading/Uploading"));
-        }else if(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir) == SyncDirection::None){
-            setSyncText(QString("Error"));
-        }
-
-        //SYNCING FINISHED
-        connect(omsj, &OfflineMapSyncJob::jobDone, this,
-                [this, omsj](){
-            if(omsj->result()->hasErrors()){
-                qDebug() << omsj->error().message().toUtf8();
-                setSyncText(QString("Failure to Sync. Will try again"));
-            }else{
-                qDebug() << "Sync successful";
-                setSyncText(QString("Recently Synced"));
+            if(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir) == SyncDirection::Download){
+                setSyncText(QString("Downloading"));
+            }else if(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir) == SyncDirection::Upload){
+                setSyncText(QString("Uploading"));
+            }else if(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir) == SyncDirection::Bidirectional){
+                setSyncText(QString("Downloading/Uploading"));
+            }else if(static_cast<Esri::ArcGISRuntime::SyncDirection>(syncDir) == SyncDirection::None){
+                setSyncText(QString("Error"));
             }
-        });
 
-        //PROGRESS FOR SYNCING
-        connect(omsj, &OfflineMapSyncJob::progressChanged, this,
-                [this, omsj](){
-            m_syncProgress = (static_cast<double>(omsj->progress()) / 100.0);
-            emit syncProgressChanged();
-        });
-        omsj->start();
+            //SYNCING FINISHED
+            connect(omsj, &OfflineMapSyncJob::jobDone, this,
+                    [this, omsj](){
+                if(omsj->result()->hasErrors()){
+                    qDebug() << omsj->error().message().toUtf8();
+                    setSyncText(QString("Failure to Sync. Will try again"));
+                }else{
+                    qDebug() << "Sync successful";
+                    setSyncText(QString("Recently Synced"));
+                }
+            });
+
+            //PROGRESS FOR SYNCING
+            connect(omsj, &OfflineMapSyncJob::progressChanged, this,
+                    [this, omsj](){
+                m_syncProgress = (static_cast<double>(omsj->progress()) / 100.0);
+                emit syncProgressChanged();
+            });
+            omsj->start();
+        }
+    }catch(...){
+        qDebug() << "Error while syncing";
     }
 }
 
@@ -410,7 +378,7 @@ void Cleanup::applyEditing(){
         fl->clearSelection();
     }
     emit puDataChanged();
-    syncUp();
+    //syncUp();
 }
 
 //PURPOSE: Cancel edits made in the editing popup window
@@ -507,36 +475,6 @@ void Cleanup::offlineMapTask_Connections(){
             qDebug() << "This map may NOT be taken offline.";
     });
 }
-
-//PURPOSE: move to next table (clean up areas or streets)
-//PARAMETERS: N/A
-//RETURN: N/A
-/*void Cleanup::nextTable(){
-    if(currentTable < (m_offlineMap->operationalLayers()->size()-1)){
-        FeatureLayer* fl(nullptr);
-        fl = static_cast<FeatureLayer*>(m_offlineMap->operationalLayers()->at(currentTable));
-        if(fl->name() == "Clean Up Streets" || fl->name() == "Clean Up Areas"){
-            m_attTable->clearList();
-            currentTable++;
-            buildTable();
-        }
-    }
-}*/
-
-//PURPOSE: move to previous table (clean up areas or streets)
-//PARAMETERS: N/A
-//RETURN: N/A
-/*void Cleanup::prevTable(){
-    if(currentTable > 0){
-        FeatureLayer* fl(nullptr);
-        fl = static_cast<FeatureLayer*>(m_offlineMap->operationalLayers()->at(currentTable));
-        if(fl->name() == "Clean Up Streets" || fl->name() == "Clean Up Areas"){
-            m_attTable->clearList();
-            currentTable--;
-            buildTable();
-        }
-    }
-}*/
 
 //PURPOSE: Get authentication manager if you need to
 //PARAMETERS: N/A

@@ -25,7 +25,7 @@ import Esri.ArcGISRuntime.Toolkit.Dialogs 100.1
 Cleanup {
     id: cleanup_Columbia
     clip: true
-    width: 800
+    width: 810
     height: 600
 
     property double scaleFactor: System.displayScaleFactor
@@ -327,295 +327,6 @@ Cleanup {
         }
     }
 
-    //Attribute table
-    /*Rectangle{
-        id: tableRect
-        property bool expanded: false
-        anchors {
-            rightMargin: 10 * scaleFactor
-            bottomMargin: 10 * scaleFactor
-            leftMargin: 10 * scaleFactor
-            bottom: parent.bottom
-            left: parent.left
-        }
-        height: 22.5 * scaleFactor
-        width: 22.5
-        color: "white"
-        opacity: 0.95
-        radius: 5
-        clip: true
-        border.color: "white"
-
-        // Animate the expand and collapse of the legend
-        Behavior on height {
-            SpringAnimation {
-                spring: 3
-                damping: .4
-            }
-        }
-        Behavior on width {
-            SpringAnimation {
-                spring: 3
-                damping: .4
-            }
-        }
-
-        MouseArea {
-            anchors.fill: parent
-            onClicked: mouse.accepted = true
-            onWheel: wheel.accepted = true
-        }
-
-        ListModel {
-            id: featureModel
-            objectName: "featureModel"
-        }
-
-        Connections {
-            target: cleanup_Columbia
-            onDataAppended: {
-                featureModel.append(row)
-            }
-            onDataRemoved: {
-                for(var i=0; i<featureModel.count; i++){
-                    if(featureModel.get(i) === row){
-                        remove(i, 1)
-                        return
-                    }
-                }
-            }
-            onListCleared: {
-                featureModel.clear()
-                attTable.removeAllColumns()
-            }
-
-            onFieldNamesChanged: {
-                var roleList = cleanup_Columbia.fieldNames
-                for(var j=0; j<roleList.length; j++){
-                    attTable.insertColumn(j, columnComponent.createObject(attTable, {"role": roleList[j], "title": roleList[j]}))
-                }
-            }
-        }
-
-        Component{
-            id: columnComponent
-            TableViewColumn{width: 100}
-        }
-
-        /*Component{
-            id: editableDelegate
-            Item {
-                Text {
-                    id: normalDelegateText
-                    width: parent.width
-                    anchors.margins: 4
-                    anchors.left: parent.left
-                    anchors.verticalCenter: parent.verticalCenter
-                    elide: styleData.elideMode
-                    text: styleData.value !== undefined ? styleData.value : ""
-                    color: styleData.textColor
-                    visible: !styleData.selected
-                    maximumLineCount: 10
-                }
-                Loader {
-                    id: loaderEditor
-                    anchors.fill: parent
-                    anchors.margins: 4
-                    Connections {
-                        target: loaderEditor.item
-                        onAccepted: {
-                            if (typeof styleData.value === 'number')
-                                featureModel.setProperty(styleData.row, styleData.role, Number(parseFloat(loaderEditor.item.text).toFixed(0)))
-                            else
-                                featureModel.setProperty(styleData.row, styleData.role, loaderEditor.item.text)
-                        }
-                    }
-                    sourceComponent: styleData.selected ? editor : null
-                    Component {
-                        id: editor
-                        TextInput {
-                            id: textinput
-                            color: styleData.textColor
-                            text: styleData.value !== undefined ? styleData.value : ""
-                            width: normalDelegateText.width
-                            height: normalDelegateText.height
-                            wrapMode: TextInput.Wrap
-                            MouseArea {
-                                id: mouseArea
-                                anchors.fill: parent
-                                hoverEnabled: true
-                                onClicked: textinput.forceActiveFocus()
-                            }
-                        }
-                    }
-                }
-            }
-        }*//*
-
-        Rectangle {
-            id: tableHeader
-            anchors{
-                top: parent.top
-                left: parent.left
-                right: parent.right
-                rightMargin: 30 * scaleFactor
-            }
-            color: "transparent"
-            radius: 5
-            height: 30 * scaleFactor
-
-            Connections {
-                target: cleanup_Columbia
-                onChangeTableName: {
-                    tableTitle.text = name
-                }
-            }
-
-            Text {
-                id: tableTitle
-                text: "Table"
-                anchors{
-                    top: parent.top
-                    bottom: parent.bottom
-                    left: parent.left
-                    leftMargin: 30 * scaleFactor
-                    right: parent.right
-                    rightMargin: 100 * scaleFactor
-                    topMargin: 7.5 * scaleFactor
-                }
-                font {
-                    pixelSize: 15 * scaleFactor
-                    bold: true
-                }
-            }
-
-            Button {
-                id: nextTableButton
-                height: 22.5 * scaleFactor
-
-                anchors{
-                    top: parent.top
-                    topMargin: 5 * scaleFactor
-                    right: parent.right
-                    rightMargin: 100 * scaleFactor
-                }
-
-                background: Rectangle {
-                    id: nextTableButtonRect
-                    height: 22.5 * scaleFactor
-                    radius: 5
-                    border.color: nextTableButton.hovered ? "green" : "white"
-                    color: nextTableButton.hovered ? "white" : "green"
-
-                }
-
-                contentItem: Text {
-                    id: nextTableButtonText
-                    text: "Next Table"
-                    color: nextTableButton.hovered ? "black" : "white"
-                    font.bold: true
-                }
-
-                hoverEnabled: true
-                onClicked: {
-                    cleanup_Columbia.nextTable();
-                }
-            }
-
-            Button {
-                id: prevTableButton
-                height: 22.5 * scaleFactor
-
-                anchors{
-                    top: parent.top
-                    topMargin: 5 * scaleFactor
-                    right: parent.right
-
-                }
-
-                background: Rectangle {
-                    id: prevTableButtonRect
-                    height: 22.5 * scaleFactor
-                    radius: 5
-                    border.color: prevTableButton.hovered ? "green" : "white"
-                    color: prevTableButton.hovered ? "white" : "green"
-
-                }
-
-                contentItem: Text {
-                    id: prevTableButtonText
-                    text: "Previous Table"
-                    color: prevTableButton.hovered ? "black" : "white"
-                    font.bold: true
-                }
-
-                hoverEnabled: true
-                onClicked: {
-                    cleanup_Columbia.prevTable();
-                }
-            }
-        }
-
-        TableView {
-            id: attTable
-            objectName: "attTable"
-            anchors.fill: parent
-            alternatingRowColors: true
-            anchors{
-                topMargin: 32.5 * scaleFactor
-                leftMargin: 10 * scaleFactor
-                rightMargin: 10 * scaleFactor
-                bottomMargin: 10 * scaleFactor
-            }
-            visible: false
-
-            /*itemDelegate: {
-                return editableDelegate
-            }*//*
-
-            model: featureModel
-
-            onClicked: {
-                runQuery(featureModel.get(row).GlobalID, "table")
-            }
-
-            function removeAllColumns() {
-                while(attTable.getColumn(0)){
-                    attTable.removeColumn(0);
-                }
-            }
-        }
-
-        // Legend icon to allow expanding and collapsing
-        Image {
-            source: tableRect.expanded ? "qrc:/Resources/DropDown.png" : "qrc:/Resources/DropUp.png"
-            width: 22.5 * scaleFactor
-            height: 22.5 * scaleFactor
-
-            anchors{
-                right: parent.right
-                top: parent.top
-            }
-
-            MouseArea {
-                anchors.fill: parent
-                onClicked: {
-                    if (tableRect.expanded) {
-                        tableRect.height = 22.5 * scaleFactor;
-                        tableRect.expanded = false;
-                        attTable.visible = false;
-                        tableRect.width = 22.5;
-                    } else {
-                        tableRect.height = 300 * scaleFactor;
-                        tableRect.expanded = true;
-                        attTable.visible = true;
-                        tableRect.width = tableRect.parent.width - 280 * scaleFactor;
-                    }
-                }
-            }
-        }
-    }*/
-
     //header
     Rectangle {
         id: header
@@ -670,41 +381,6 @@ Cleanup {
             width: 200 * scaleFactor
         }
 
-        /*Button {
-            id: syncButton
-            height: 25 * scaleFactor
-
-            anchors {
-                top: parent.top
-                left: headerImg.right
-                bottom: parent.bottom
-                topMargin: 5 * scaleFactor
-                leftMargin: 10 * scaleFactor
-                bottomMargin: 5 * scaleFactor
-            }
-
-            background: Rectangle {
-                id: syncButtonRect
-                height: 40 * scaleFactor
-                radius: 5
-                border.color: syncButton.hovered ? "green" : "white"
-                color: syncButton.hovered ? "white" : "green"
-            }
-
-            contentItem: Text {
-                topPadding: 6 * scaleFactor
-                id: syncButtonText
-                text: "Manual Sync Up"
-                color: syncButton.hovered ? "black" : "white"
-                font.bold: true
-            }
-
-            hoverEnabled: true
-            onClicked: {
-                cleanup_Columbia.syncUp();
-            }
-        }*/
-
         Text {
             text: cleanup_Columbia.syncText
             anchors {
@@ -741,7 +417,7 @@ Cleanup {
                     }
                     if(resultListModel.count >= 2){
                         resultListRect.visible = true;
-                    }
+                    }else{ resultListRect.visible = false; }
                 }
             }
 
@@ -824,7 +500,10 @@ Cleanup {
                 height: 30 * scaleFactor
                 placeholderText: "Enter something to query"
                 inputMethodHints: Qt.ImhNoPredictiveText
-                Keys.onReturnPressed: {
+                /*Keys.onReturnPressed: {
+                    cleanup_Columbia.runQuery(findText.text, "search");
+                }*/
+                Keys.onReleased: {
                     cleanup_Columbia.runQuery(findText.text, "search");
                 }
             }
@@ -858,7 +537,7 @@ Cleanup {
         }
     }
 
-    // error message dialog
+    /*// error message dialog
     MessageDialog {
         id: errorMsgDialog
         visible: false
@@ -871,7 +550,7 @@ Cleanup {
     onQueryFailureChanged: {
         if (cleanup_Columbia.queryFailure === true)
             errorMsgDialog.visible = true;
-    }
+    }*/
 
     Rectangle {
         anchors.fill: parent

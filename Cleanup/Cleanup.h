@@ -47,11 +47,6 @@ class Cleanup : public QQuickItem
     Q_PROPERTY(double syncProgress READ syncProgress NOTIFY syncProgressChanged)
     Q_PROPERTY(QString syncText READ syncText NOTIFY syncTextChanged)
 
-    /*
-    Q_PROPERTY(QStringList fieldNames READ fieldNames NOTIFY fieldNamesChanged)
-    Q_PROPERTY(Esri::ArcGISRuntime::AttributeListModel* tableList READ tableList NOTIFY tableListChanged)
-    */
-
 public:
     Cleanup(QQuickItem* parent = nullptr);
     ~Cleanup();
@@ -62,10 +57,6 @@ public:
     void listen_Query();
     void listen_Identify();
 
-    /*
-    void listen_Table();
-    */
-
     void offlineMapTask_Connections();
     void offlineMapSyncTask_Connections();
     void makeConnections();
@@ -73,21 +64,12 @@ public:
     void set_puManager(Esri::ArcGISRuntime::Popup* p, Esri::ArcGISRuntime::FeatureLayer* fl, Esri::ArcGISRuntime::Feature* f);
     void setSyncText(QString str);
 
-    /*
-    void buildTable();
-    */
-
     Q_INVOKABLE void applyEditing();
     Q_INVOKABLE void cancelEditing();
     Q_INVOKABLE void runQuery(const QString& qInput, const QString& trigger);
     Q_INVOKABLE void syncUp();
     Q_INVOKABLE void syncDown();
     Q_INVOKABLE void syncUpAndDown();
-
-    /*
-    Q_INVOKABLE void nextTable();
-    Q_INVOKABLE void prevTable();
-    */
 
 signals:
     void mapDrawStatusChanged();
@@ -99,15 +81,6 @@ signals:
     void fqResultAdded(QVariant result);
     void clearResults();
 
-    /*
-    void tableListChanged();
-    void fieldNamesChanged();
-    void dataAppended(QVariantMap row);
-    void dataRemoved(QVariantMap row);
-    void listCleared();
-    void changeTableName(const QString &name);
-    */
-
 private:
     bool mapDrawing() const { return m_mapDrawing; }
     Esri::ArcGISRuntime::LegendInfoListModel* legendInfoListModel() const { return m_legendInfoListModel; }
@@ -116,11 +89,6 @@ private:
     bool queryFailure() const { return m_queryFailure; }
     double syncProgress() const { return m_syncProgress; }
     QString syncText() const { return m_syncText; }
-
-    /*
-    Esri::ArcGISRuntime::AttributeListModel* tableList() const { return m_tableList; }
-    QStringList fieldNames() const { return m_fieldNames; }
-    */
 
 private:
     Esri::ArcGISRuntime::Map*                   m_map;
@@ -137,16 +105,12 @@ private:
     QString mmpkPath;
     QString mmpkPath2;
     int iterOffset;
-    int currentTable;
     int syncInterval;
     double m_syncProgress;
     QString m_syncText;
 
-    /*
-    Esri::ArcGISRuntime::AttributeListModel* m_tableList;
-    QStringList m_fieldNames;
-    AttributeTable* m_attTable;
-    */
+    const QString cleanupServiceURL = "http://gocolumbiamo.maps.arcgis.com/home/item.html?id=45414a367c7742f395f2b2cb1421337a";
+
 };
 
 #endif // CLEANUP_H
