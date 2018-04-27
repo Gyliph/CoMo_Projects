@@ -1,0 +1,115 @@
+.urbansim{
+	left: -10px;
+	padding-left: 15px;
+	position: relative;
+}
+
+.urbansim .header,
+.urbansim .parameter-title,
+.urbansim .advanced-parameter-title{
+	width: 100vw;
+	height: 50px;
+	line-height: 50px;
+	background-color: black;
+	
+	color: rgb(200, 255, 255);
+	font-size: 20px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-shadow: 0 0 3px rgb(150, 200, 200);
+	
+	padding-right: 15px;
+	padding-left: 15px;
+	top: -10px;
+	left: -15px;
+	position: relative;
+}
+
+.urbansim .parameter-title,
+.urbansim .advanced-parameter-title{
+	background-color: white;
+	top: 0px;
+	color: black;
+	text-shadow: 0 0 1px rgb(50, 50, 50);
+	font-size: 16px;
+}
+
+.urbansim .create-table-button,
+.urbansim .table-select,
+.urbansim .advanced-parameters-button,
+.urbansim .simple-parameters-button,
+.urbansim .use-advanced-parameters{
+	background-color: white;
+	margin-top: 10px;
+	color: black;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.urbansim .create-table-button:hover,
+.urbansim .table-select:hover,
+.urbansim .advanced-parameters-button:hover,
+.urbansim .simple-parameters-button:hover{
+	cursor: pointer;
+	background-color: rgba(200, 255, 255, 0.5)
+}
+
+.urbansim .employment-input-parameters,
+.urbansim .household-input-parameters{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.urbansim .param,
+.urbansim .employment-sector,
+.urbansim .advanced-parameters{
+	border-radius: 3px;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.urbansim .hidden{
+	display: none;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.urbansim .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.urbansim .active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.urbansim .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.urbansim .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.urbansim .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}

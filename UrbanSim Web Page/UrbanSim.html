@@ -1,0 +1,98 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<title> UrbanSim CSV Creator </title>
+</head>
+
+<body>
+<div class="urbansim">
+	<div class="header"> UrbanSim Table Creator</div>
+	<select class="table-select">
+		<option value="employment">Create Employment Table</option>
+		<option value="household">Create Household Table</option>
+	</select>
+	
+	<div class="household-input-parameters hidden"> 
+		<div class="parameter-title"> Household Input Parameters</div>
+		<div class="parameters">
+			Start Date: <input class="param" type="number" min="2015" step="1" name="startDate" value="2015"><br>
+			Stop Date: <input class="param" type="number" min="2016" step="1" name="stopDate" value="2016"><br>
+			Annual Growth Rate: <input class="param" type="number" min="1.00" step=".01" name="annualGrowthRate" value="1.00"><br>
+			Household Tenure Own %: <input class="param" type="number" min="0.0" max="100.0" step=".01" name="tenureOwn" value="50.0"><br>
+			Household Tenure Rent %: <input class="param" type="number" min="0.0" max="100.0" step=".01" name="tenureRent" value="50.0"><br>
+			Percent of Household <: <input class="param" type="number" min="0.0" max="100.0" step=".01" name="percentUnder" value="50.0"><br>
+			Percent of Household >: <input class="param" type="number" min="0.0" max="100.0" step=".01" name="percentOver" value="50.0"><br>
+			Number of Households: <input class="param" type="number" min="0" step="1" name="numHouseholds" value="50000"><br>
+		</div>
+		
+		<div class="advanced-parameter-title hidden"> Household Advanced Parameters: Incremental Changes</div>
+		<div class="advanced-parameters hidden"></div>
+		
+		<div class="advanced-parameters-template hidden">
+			<button class="accordion">Year</button>
+			<div class="panel">
+				Annual Growth Rate: <input class="param" type="number" min="1.00" step=".01" name="annualGrowthRate" value="1.00"><br>
+				Household Tenure Own %: <input class="param" type="number" min="0.0" max="100.0" step=".01" name="tenureOwn" value="50.0"><br>
+				Household Tenure Rent %: <input class="param" type="number" min="0.0" max="100.0" step=".01" name="tenureRent" value="50.0"><br>
+				Percent of Household <: <input class="param" type="number" min="0.0" max="100.0" step=".01" name="percentUnder" value="50.0"><br>
+				Percent of Household >: <input class="param" type="number" min="0.0" max="100.0" step=".01" name="percentOver" value="50.0"><br>
+			</div>
+		</div>
+	</div>
+	
+	<div class="employment-input-parameters hidden">
+		<div class="parameter-title"> Employment Input Parameters: Percent of Total Employment</div>
+		<div class="parameters">
+			Start Date: <input class="param" type="number" min="2015" step="1" name="startDate" value="2015"><br>
+			Stop Date: <input class="param" type="number" min="2016" step="1" name="stopDate" value="2016"><br>
+			Annual Growth Rate: <input class="param" type="number" min="1.00" step=".01" name="annualGrowthRate" value="1.00"><br>
+			11 & 21: Natural Resources & Mining: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="11 & 21" value="0.0"><br>
+			23: Construction: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="23" value="0.0""><br>
+			31 - 33: Manufacturing: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="31 - 33" value="0.0"><br>
+			42 - 49 & 22: Trade, Transportation, & Utilities : <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="42 - 49 & 22" value="0.0"><br>
+			51 - 56: Professional and Business Services: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="51 - 56" value="0.0"><br>
+			61: Educational Services (1): <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="61" value="0.0"><br>
+			62: Health Care & Social Assistance (2): <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="62" value="0.0"><br>
+			71 - 72: Leisure & Hospitality: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="71 - 72" value="0.0"><br>
+			81: Other Services, Except Public Administration: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="81" value="0.0"><br>
+			91 - 93: Public Administration: Local, State, Federal (3): <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="91 - 93" value="0.0"><br>
+			County Total: <input class="param" type="number" min="50000" step="1" name="countyTotal" value="50000"><br>
+		</div>
+
+		<div class="advanced-parameter-title hidden"> Employment Advanced Parameters: Percent of Total Employment</div>
+		<div class="advanced-parameters hidden"></div>
+		
+		<div class="advanced-parameters-template hidden">
+			<button class="accordion">Year</button>
+			<div class="panel">
+				Annual Growth Rate: <input class="param" type="number" min="1.00" step=".01" name="annualGrowthRate" value="1.00"><br>
+				11 & 21: Natural Resources & Mining: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="11 & 21" value="0.0"><br>
+				23: Construction: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="23" value="0.0""><br>
+				31 - 33: Manufacturing: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="31 - 33" value="0.0"><br>
+				42 - 49 & 22: Trade, Transportation, & Utilities : <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="42 - 49 & 22" value="0.0"><br>
+				51 - 56: Professional and Business Services: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="51 - 56" value="0.0"><br>
+				61: Educational Services (1): <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="61" value="0.0"><br>
+				62: Health Care & Social Assistance (2): <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="62" value="0.0"><br>
+				71 - 72: Leisure & Hospitality: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="71 - 72" value="0.0"><br>
+				81: Other Services, Except Public Administration: <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="81" value="0.0"><br>
+				91 - 93: Public Administration: Local, State, Federal (3): <input class="employment-sector" type="number" min="0.0" max="100.0" step=".01" name="91 - 93" value="0.0"><br>
+			</div>
+		</div>
+	</div>
+	
+	<button class="create-table-button">Download Table</button>
+	<button class="advanced-parameters-button">Advanced Parameters</button>
+	<button class="simple-parameters-button hidden">Simple Parameters</button>
+	<input class="use-advanced-parameters" type="checkbox">Use Advanced Parameters?</input>
+</div>
+
+
+<!-- Load Dojo -->
+<script src="dojo-release-1.13.0/dojo/dojo.js"></script>
+<script type="text/javascript" src="UrbanSim.js"></script>
+<!-- Load Dojo -->
+</body>
+
+</html>
