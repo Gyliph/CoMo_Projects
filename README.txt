@@ -6,3 +6,5 @@ Included projects are:
 	- Cleanup Columbia (QT app)
 	- Intersection Analysis (python scripts)
 	- UrbanSim Web Page (Local web app for urbansim model setup)
+	
+Swap projects by choosing a different git branch of this repo
