@@ -1,0 +1,6 @@
+"Asset ID","Asset No.",Date,Time(CDT),Speed(MPH),Heading,"Log Reason","Distance Traveled(Miles)",Lat,Lon,Zone,Address,Odometer,EXSID,Acceleration(Miles/Hour/Sec),"Status Mask","Fuel Counter(Gallon)","Air Temperature","Average RPM","Average Load","Fuel Level","Outside Pressure","Peak RPM","Average Torque","Boost Pressure","FFilter Dpressure","AFilter Dpressure","DPF Dpressure","Regen Status"
+227,535,2018-04-26,1524772282,27.3,274.10,Standard,0,38.9639842,-92.3176045,,,50038.15,,10,40991,"1,276.80",0,0,0,0,0,0,0,0,0,0,0,0
+256,306,2018-04-26,1524772283,0,276.10,"Motion Stop",0,38.9543443,-92.3419418,,,8931.51,,-2,9247,0.00,0,0,0,0,0,0,0,0,0,0,0,0
+272,541,2018-04-26,1524772287,38.6,177.57,Standard,0,38.96702,-92.3247415,,,23865.46,,7,8223,0.00,0,0,0,0,0,0,0,0,0,0,0,0
+225,526,2018-04-26,1524772288,0,90.08,"Motion Stop",0,38.9526129,-92.3298563,,,45038.97,,-3,42015,"1,219.34",0,0,0,0,0,0,0,0,0,0,0,0
+234,509,2018-04-26,1524772288,0,278.31,"Motion Stop",0,38.9634773,-92.3170413,,,121559.8,,-6,42015,0.00,0,0,0,0,0,0,0,0,0,0,0,0
