@@ -821,3 +821,16 @@ Failed main loop at 1524774636.76: delayZonar instance has no attribute '__getit
 Failed main loop at 1524774654.86: delayZonar instance has no attribute '__getitem__'
 Failed main loop at 1524774749.14: delayZonar instance has no attribute '__getitem__'
 Failed creating lookup table at 1524775050.08: 'dict' object has no attribute 'username'
+Failed Waterlight at 1526194802.18: ('http protocol error', 0, 'got a bad status line', None)
+Failed main at 1526286003.46: [Errno 4] Interrupted function call
+Failed Solid Waste at 1526367601.67: ('http protocol error', 0, 'got a bad status line', None)
+Failed creating lookup table at 1526427237.03: [Errno socket error] [Errno 10054] An existing connection was forcibly closed by the remote host
+Failed main at 1526480368.19: [Errno 4] Interrupted function call
+Failed Street at 1526886001.54: ('http protocol error', 0, 'got a bad status line', None)
+Failed creating lookup table at 1526919659.52: 'NoneType' object has no attribute 'find'
+Failed Waterlight at 1526920572.61: global name 'lookupdep' is not defined
+Failed creating lookup table at 1526920975.14: 'Element' object has no attribute 'name'
+Failed creating lookup table at 1526921043.45: 'Element' object has no attribute 'name'
+Failed Waterlight at 1526921195.56: '541'
+Failed main at 1527002101.86: [Errno 4] Interrupted function call
+Failed main at 1527011448.33: [Errno 4] Interrupted function call

@@ -846,3 +846,15 @@ Failed Street at 1524772931.31: [Errno socket error] [Errno 10054] An existing c
 Failed Street at 1524772962.32: ('http protocol error', 0, 'got a bad status line', None)
 Failed Street at 1524773363.28: [Errno socket error] [Errno 10054] An existing connection was forcibly closed by the remote host
 Failed Waterlight at 1524773379.48: ('http protocol error', 0, 'got a bad status line', None)
+Failed Street at 1525417201.33: ('http protocol error', 0, 'got a bad status line', None)
+Failed main at 1525611634.32: [Errno 4] Interrupted function call
+Failed Street at 1525676401.67: ('http protocol error', 0, 'got a bad status line', None)
+Failed Waterlight at 1525935601.97: ('http protocol error', 0, 'got a bad status line', None)
+Failed Waterlight at 1526212813.76: [Errno socket error] [Errno 10054] An existing connection was forcibly closed by the remote host
+Failed Street at 1526281201.43: ('http protocol error', 0, 'got a bad status line', None)
+Failed Sewer at 1526426757.91: list assignment index out of range
+Failed main at 1526480368.19: [Errno 4] Interrupted function call
+Failed main at 1526821249.12: [Errno 4] Interrupted function call
+Failed main at 1527000894.02: [Errno 4] Interrupted function call
+Failed Waterlight at 1527054631.54: [Errno socket error] [Errno 10054] An existing connection was forcibly closed by the remote host
+Failed Sewer at 1527058801.93: ('http protocol error', 0, 'got a bad status line', None)

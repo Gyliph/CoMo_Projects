@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<assetlist ver="1.19">
+<assetlist ver="2.0">
 	<asset id="198">
 		<name>1804</name>
 		<tag>0</tag>
@@ -24,6 +24,8 @@
 		<opstatus timestamp="1484743160">good</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="173">
 		<name></name>
@@ -49,6 +51,8 @@
 		<opstatus timestamp="1484837047">crit</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="26">
 		<name>0374</name>
@@ -74,6 +78,10 @@
 		<opstatus timestamp="1485990942">unsat</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="2" name="Vehicle Description" value="Transit"/>
+		</customdata>
 	</asset>
 	<asset id="32">
 		<name>0375</name>
@@ -99,6 +107,8 @@
 		<opstatus timestamp="1486126052">unsat</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="254">
 		<name>107</name>
@@ -124,6 +134,8 @@
 		<opstatus timestamp="1490962083">unknown</opstatus>
 		<gps>8796455</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="82">
 		<name>1221</name>
@@ -143,12 +155,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523724468">in</stat>
+			<stat timestamp="1527091518">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452635137">unknown</opstatus>
 		<gps>8125319</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="137">
 		<name>1222</name>
@@ -168,12 +182,17 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524755728">out</stat>
+			<stat timestamp="1527072903">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453845482">unknown</opstatus>
 		<gps>8125313</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Parking"/>
+			<label id="2" name="Vehicle Description" value="2015 Ford F250"/>
+		</customdata>
 	</asset>
 	<asset id="153">
 		<name>1228</name>
@@ -193,12 +212,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523531738">in</stat>
+			<stat timestamp="1527093417">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454246373">unknown</opstatus>
 		<gps>8125944</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="144">
 		<name>1235</name>
@@ -224,6 +245,8 @@
 		<opstatus timestamp="1454157611">unknown</opstatus>
 		<gps>8125452</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="77">
 		<name>1243</name>
@@ -249,6 +272,8 @@
 		<opstatus timestamp="1452620140">unknown</opstatus>
 		<gps>8125317</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="142">
 		<name>1246</name>
@@ -267,13 +292,18 @@
 		<inservice>27 Jan 2016</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1519214475">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1527092874">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453929895">unknown</opstatus>
 		<gps>8125631</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Parking"/>
+			<label id="2" name="Vehicle Description" value="2013 Bobcat 4x4"/>
+		</customdata>
 	</asset>
 	<asset id="191">
 		<name>1250</name>
@@ -299,6 +329,8 @@
 		<opstatus timestamp="1461781625">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="134">
 		<name>1285</name>
@@ -318,12 +350,17 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524769744">in</stat>
+			<stat timestamp="1527080064">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453835053">unknown</opstatus>
 		<gps>8125456</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Sewer"/>
+			<label id="2" name="Vehicle Description" value="2008 Chevrolet K1500"/>
+		</customdata>
 	</asset>
 	<asset id="37">
 		<name>1296</name>
@@ -333,22 +370,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1296</exsid>
-		<mileage>195704</mileage>
+		<mileage>197430</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2011 Ford V10</mfg>
 		<inservice>01 Apr 2014</inservice>
-		<inspdate id="75592" type="COL2225I-3.4.0">1524187483</inspdate>
+		<inspdate id="77372" type="COL2225H-3.4.0">1527073532</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524207361">in</stat>
+			<stat timestamp="1527073736">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524187681">unsat</opstatus>
+		<opstatus timestamp="1527073545">unsat</opstatus>
 		<gps>8541585</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="35">
 		<name>1297</name>
@@ -358,22 +397,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1297</exsid>
-		<mileage>127099</mileage>
+		<mileage>209004</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2011 Ford V10</mfg>
 		<inservice>01 Apr 2014</inservice>
-		<inspdate id="75948" type="COL2225F-3.4.0">1524740442</inspdate>
+		<inspdate id="77330" type="COL2225F-3.4.0">1526986739</inspdate>
 		<yardstat>
 			<yard>Wanash</yard>
 			<stat timestamp="1501095379">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524774088">unsat</opstatus>
+		<opstatus timestamp="1527009631">unsat</opstatus>
 		<gps>8541584</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="38">
 		<name>1298</name>
@@ -383,22 +424,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1298</exsid>
-		<mileage>224937</mileage>
+		<mileage>225119</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2012 Ford V10</mfg>
 		<inservice>01 Apr 2014</inservice>
-		<inspdate id="75823" type="COL2225I-3.4.0">1524596063</inspdate>
+		<inspdate id="77281" type="COL2225J-3.4.0">1526929254</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524613640">in</stat>
+			<stat timestamp="1527097810">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524596121">unsat</opstatus>
+		<opstatus timestamp="1526937509">good</opstatus>
 		<gps>8541592</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="36">
 		<name>1299</name>
@@ -408,22 +451,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1299</exsid>
-		<mileage>232266</mileage>
+		<mileage>233817</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2012 Ford V10</mfg>
 		<inservice>01 Apr 2014</inservice>
-		<inspdate id="75970" type="COL2225H-3.4.0">1524754803</inspdate>
+		<inspdate id="77363" type="COL2225H-3.4.0">1527071542</inspdate>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524755282">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1527093649">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524754992">unsat</opstatus>
+		<opstatus timestamp="1527071982">unsat</opstatus>
 		<gps>8541586</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="28">
 		<name>1301</name>
@@ -433,22 +478,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1301</exsid>
-		<mileage>212471</mileage>
+		<mileage>217576</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2012 Gillig 35ft</mfg>
 		<inservice>28 Mar 2014</inservice>
-		<inspdate id="75600" type="COL2225E-3.4.0">1524143105</inspdate>
+		<inspdate id="77362" type="COL2225G-3.4.0">1527036493</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
 			<stat timestamp="1520277289">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524220627">crit</opstatus>
+		<opstatus timestamp="1527070613">crit</opstatus>
 		<gps>8541657</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="21">
 		<name>1302</name>
@@ -458,22 +505,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1302</exsid>
-		<mileage>231308</mileage>
+		<mileage>235132</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2012 Gillig 35ft</mfg>
 		<inservice>27 Mar 2014</inservice>
-		<inspdate id="75985" type="COL2225G-3.4.0">1524769578</inspdate>
+		<inspdate id="77378" type="COL2225E-3.4.0">1527074012</inspdate>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524741444">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1527099585">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524769722">crit</opstatus>
+		<opstatus timestamp="1527074077">unsat</opstatus>
 		<gps>8541566</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="29">
 		<name>1303</name>
@@ -483,22 +532,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1303</exsid>
-		<mileage>221255</mileage>
+		<mileage>221791</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2012 Gillig 35ft</mfg>
 		<inservice>28 Mar 2014</inservice>
-		<inspdate id="75777" type="COL2225E-3.4.0">1524532958</inspdate>
+		<inspdate id="77358" type="COL2225E-3.4.0">1527037249</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524532502">in</stat>
+			<stat timestamp="1527076809">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524533044">good</opstatus>
+		<opstatus timestamp="1527037470">unsat</opstatus>
 		<gps>8541649</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="22">
 		<name>1304</name>
@@ -508,22 +559,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1304</exsid>
-		<mileage>41035</mileage>
+		<mileage>43366</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2012 Gillig 40ft</mfg>
 		<inservice>27 Mar 2014</inservice>
-		<inspdate id="75428" type="COL2225E-3.4.0">1524013153</inspdate>
+		<inspdate id="77368" type="COL2225F-3.4.0">1527072526</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524054683">out</stat>
+			<stat timestamp="1527075677">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524013246">unsat</opstatus>
+		<opstatus timestamp="1527072957">unsat</opstatus>
 		<gps>8541510</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="18">
 		<name>1305</name>
@@ -533,22 +586,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1305</exsid>
-		<mileage>204103</mileage>
+		<mileage>208519</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2012 Gillig 40ft</mfg>
 		<inservice>27 Mar 2014</inservice>
-		<inspdate id="75977" type="COL2225G-3.4.0">1524768705</inspdate>
+		<inspdate id="77379" type="COL2225F-3.4.0">1527074076</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524741613">out</stat>
+			<stat timestamp="1527074312">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524768807">crit</opstatus>
+		<opstatus timestamp="1527074096">unsat</opstatus>
 		<gps>8541442</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="19">
 		<name>1306</name>
@@ -558,22 +613,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1306</exsid>
-		<mileage>404</mileage>
+		<mileage>1666</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2012 Gillig 35ft</mfg>
 		<inservice>27 Mar 2014</inservice>
-		<inspdate id="75731" type="COL2225F-3.4.0">1524482105</inspdate>
+		<inspdate id="76788" type="COL2225F-3.4.0">1525950587</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524764479">in</stat>
+			<stat timestamp="1527095550">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524482118">crit</opstatus>
+		<opstatus timestamp="1525951457">unsat</opstatus>
 		<gps>8539708</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="193">
 		<name></name>
@@ -599,56 +656,35 @@
 		<opstatus timestamp="1478553923">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="194">
-		<name></name>
+		<name>1313</name>
 		<tag>222500022</tag>
 		<vin></vin>
 		<fleet>1313</fleet>
 		<type id="0">Standard</type>
 		<subtype/>
 		<exsid></exsid>
-		<mileage>31434</mileage>
+		<mileage>32063</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg></mfg>
 		<inservice>07 Nov 2016</inservice>
-		<inspdate id="75963" type="COL2225H-3.4.0">1524744651</inspdate>
+		<inspdate id="77384" type="COL2225J-3.4.0">1527081339</inspdate>
 		<yardstat>
 			<yard>Wanash</yard>
-			<stat timestamp="1524769846">out</stat>
+			<stat timestamp="1527082943">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524744682">unsat</opstatus>
+		<opstatus timestamp="1527081360">unsat</opstatus>
 		<gps>8541647</gps>
 		<homeloi></homeloi>
-	</asset>
-	<asset id="63">
-		<name>1314</name>
-		<tag>222500052</tag>
-		<vin>1FDFE4FS9EDA78672</vin>
-		<fleet>1314</fleet>
-		<type id="0">Standard</type>
-		<subtype/>
-		<exsid></exsid>
-		<mileage>111492</mileage>
-		<location>Transit</location>
-		<mileoffset>0</mileoffset>
-		<enginehouroffset>0</enginehouroffset>
-		<radioaddress></radioaddress>
-		<mfg></mfg>
-		<inservice>20 Apr 2015</inservice>
-		<inspdate id="75986" type="COL2225J-3.4.0">1524769010</inspdate>
-		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524769242">out</stat>
-		</yardstat>
-		<status>1</status>
-		<opstatus timestamp="1524770141">unsat</opstatus>
-		<gps>8083983</gps>
-		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="61">
 		<name></name>
@@ -674,31 +710,35 @@
 		<opstatus timestamp="1429285184">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
-	<asset id="53">
-		<name>1317</name>
-		<tag>222500054</tag>
-		<vin>1FDFE4FS9EDA78669</vin>
-		<fleet>1317</fleet>
+	<asset id="63">
+		<name>1314</name>
+		<tag>222500052</tag>
+		<vin>1FDFE4FS9EDA78672</vin>
+		<fleet>1314</fleet>
 		<type id="0">Standard</type>
 		<subtype/>
 		<exsid></exsid>
-		<mileage>145195</mileage>
+		<mileage>114542</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg></mfg>
-		<inservice>23 Mar 2015</inservice>
-		<inspdate id="75947" type="COL2225H-3.4.0">1524740578</inspdate>
+		<inservice>20 Apr 2015</inservice>
+		<inspdate id="77364" type="COL2225H-3.4.0">1527072201</inspdate>
 		<yardstat>
 			<yard>Wanash</yard>
-			<stat timestamp="1524769182">in</stat>
+			<stat timestamp="1527094507">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524740920">unsat</opstatus>
-		<gps>8083991</gps>
+		<opstatus timestamp="1527072241">crit</opstatus>
+		<gps>8083983</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="48">
 		<name></name>
@@ -724,6 +764,35 @@
 		<opstatus timestamp="1426838561">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="53">
+		<name>1317</name>
+		<tag>222500054</tag>
+		<vin>1FDFE4FS9EDA78669</vin>
+		<fleet>1317</fleet>
+		<type id="0">Standard</type>
+		<subtype/>
+		<exsid></exsid>
+		<mileage>148005</mileage>
+		<location>Transit</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>23 Mar 2015</inservice>
+		<inspdate id="77377" type="COL2225H-3.4.0">1527073667</inspdate>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527074247">out</stat>
+		</yardstat>
+		<status>1</status>
+		<opstatus timestamp="1527074043">crit</opstatus>
+		<gps>8083991</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="46">
 		<name>1318</name>
@@ -733,22 +802,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid></exsid>
-		<mileage>138380</mileage>
+		<mileage>141811</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg></mfg>
 		<inservice>03 Jul 2014</inservice>
-		<inspdate id="75982" type="COL2225J-3.4.0">1524769049</inspdate>
+		<inspdate id="77373" type="COL2225H-3.4.0">1527073546</inspdate>
 		<yardstat>
 			<yard>Wanash</yard>
-			<stat timestamp="1524769902">out</stat>
+			<stat timestamp="1527080843">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524769499">crit</opstatus>
+		<opstatus timestamp="1527073578">unsat</opstatus>
 		<gps>8541788</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="47">
 		<name>1319</name>
@@ -758,22 +829,24 @@
 		<type id="0">Standard</type>
 		<subtype id="-2">Auto-Created Sub-Type</subtype>
 		<exsid></exsid>
-		<mileage>134995</mileage>
+		<mileage>137973</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg></mfg>
 		<inservice>03 Jul 2014</inservice>
-		<inspdate id="75945" type="COL2225H-3.4.0">1524740845</inspdate>
+		<inspdate id="77376" type="COL2225H-3.4.0">1527073929</inspdate>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524741133">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1527080859">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524740883">unsat</opstatus>
+		<opstatus timestamp="1527073947">unsat</opstatus>
 		<gps>8541786</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="60">
 		<name></name>
@@ -799,6 +872,8 @@
 		<opstatus timestamp="1429270020">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="62">
 		<name>1320</name>
@@ -824,6 +899,8 @@
 		<opstatus timestamp="1521678121">good</opstatus>
 		<gps>8083988</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="51">
 		<name>1321</name>
@@ -833,22 +910,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid></exsid>
-		<mileage>106739</mileage>
+		<mileage>109048</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg></mfg>
 		<inservice>01 Apr 2015</inservice>
-		<inspdate id="75978" type="COL2225G-3.4.0">1524768932</inspdate>
+		<inspdate id="77121" type="COL2225F-3.4.0">1526565565</inspdate>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524769119">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526976617">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524769050">unsat</opstatus>
+		<opstatus timestamp="1526565700">crit</opstatus>
 		<gps>8083994</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="202">
 		<name>1359</name>
@@ -858,22 +937,24 @@
 		<type id="0">Standard</type>
 		<subtype id="2">Transit</subtype>
 		<exsid></exsid>
-		<mileage>8255</mileage>
+		<mileage>8574</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>BYD</mfg>
 		<inservice>11 Nov 2016</inservice>
-		<inspdate id="75974" type="COL2225G-3.4.0">1524768473</inspdate>
+		<inspdate id="76944" type="COL2225F-3.4.0">1526296174</inspdate>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524693821">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527099642">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524768612">crit</opstatus>
+		<opstatus timestamp="1526296210">crit</opstatus>
 		<gps>8133680</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="203">
 		<name>1364</name>
@@ -899,6 +980,8 @@
 		<opstatus timestamp="1478893972">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="110">
 		<name>1401</name>
@@ -918,12 +1001,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524768831">in</stat>
+			<stat timestamp="1527099244">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452957206">unknown</opstatus>
 		<gps>8125507</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="84">
 		<name>1410</name>
@@ -949,6 +1034,8 @@
 		<opstatus timestamp="1452682736">unknown</opstatus>
 		<gps>8125943</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="79">
 		<name>1411</name>
@@ -968,12 +1055,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524773752">in</stat>
+			<stat timestamp="1527079572">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452627180">unknown</opstatus>
 		<gps>8125518</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="92">
 		<name>1415</name>
@@ -993,12 +1082,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523301842">in</stat>
+			<stat timestamp="1527090352">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452711228">unknown</opstatus>
 		<gps>8125322</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="157">
 		<name>1419</name>
@@ -1018,12 +1109,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524751046">out</stat>
+			<stat timestamp="1526641757">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454772902">unknown</opstatus>
 		<gps>8125945</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="116">
 		<name>1420</name>
@@ -1043,12 +1136,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524596996">out</stat>
+			<stat timestamp="1525892972">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453202153">unknown</opstatus>
 		<gps>8125519</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="136">
 		<name>1426</name>
@@ -1068,12 +1163,17 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Wanash</yard>
-			<stat timestamp="1524583664">out</stat>
+			<stat timestamp="1527083207">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453843994">unknown</opstatus>
 		<gps>8125312</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Parking"/>
+			<label id="2" name="Vehicle Description" value="2015 Jeep Patriot"/>
+		</customdata>
 	</asset>
 	<asset id="33">
 		<name>1438</name>
@@ -1099,6 +1199,8 @@
 		<opstatus timestamp="1521816543">crit</opstatus>
 		<gps>8541659</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="111">
 		<name>1440</name>
@@ -1118,12 +1220,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524770049">in</stat>
+			<stat timestamp="1527084411">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452961607">unknown</opstatus>
 		<gps>8125500</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="108">
 		<name>1441</name>
@@ -1143,12 +1247,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524677527">in</stat>
+			<stat timestamp="1527099087">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452887272">unknown</opstatus>
 		<gps>8125504</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="105">
 		<name>1534</name>
@@ -1168,12 +1274,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524745950">out</stat>
+			<stat timestamp="1527097706">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452879800">unknown</opstatus>
 		<gps>8125491</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="100">
 		<name>1545</name>
@@ -1193,12 +1301,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524746075">out</stat>
+			<stat timestamp="1527097111">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452869438">unknown</opstatus>
 		<gps>8125467</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="99">
 		<name>1546</name>
@@ -1224,6 +1334,8 @@
 		<opstatus timestamp="1452866089">unknown</opstatus>
 		<gps>8125465</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="101">
 		<name>1547</name>
@@ -1243,12 +1355,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524769692">in</stat>
+			<stat timestamp="1527088881">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452871150">unknown</opstatus>
 		<gps>8125494</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="106">
 		<name>1548</name>
@@ -1268,12 +1382,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524772678">in</stat>
+			<stat timestamp="1527098286">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452883950">unknown</opstatus>
 		<gps>8125498</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="112">
 		<name>1549</name>
@@ -1293,12 +1409,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524771167">in</stat>
+			<stat timestamp="1527098304">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452963275">unknown</opstatus>
 		<gps>8125501</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="107">
 		<name>1550</name>
@@ -1318,12 +1436,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524772838">in</stat>
+			<stat timestamp="1527078970">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452885305">unknown</opstatus>
 		<gps>8125499</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="104">
 		<name>1551</name>
@@ -1343,12 +1463,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524770057">in</stat>
+			<stat timestamp="1527098498">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452878337">unknown</opstatus>
 		<gps>8125490</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="98">
 		<name>1583</name>
@@ -1374,6 +1496,8 @@
 		<opstatus timestamp="1452786387">unknown</opstatus>
 		<gps>8125939</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="76">
 		<name>1600</name>
@@ -1393,15 +1517,17 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524679397">in</stat>
+			<stat timestamp="1527093210">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452617002">unknown</opstatus>
 		<gps>8125327</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="195">
-		<name></name>
+		<name>1607</name>
 		<tag>0</tag>
 		<vin></vin>
 		<fleet>1607</fleet>
@@ -1418,12 +1544,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524770353">in</stat>
+			<stat timestamp="1527092441">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1478553977">unknown</opstatus>
 		<gps>8790531</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="94">
 		<name>1608</name>
@@ -1443,12 +1571,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524587742">in</stat>
+			<stat timestamp="1527080803">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452719107">unknown</opstatus>
 		<gps>8125453</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="97">
 		<name>1609</name>
@@ -1474,6 +1604,8 @@
 		<opstatus timestamp="1452781651">unknown</opstatus>
 		<gps>8125515</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="146">
 		<name>1610</name>
@@ -1499,6 +1631,8 @@
 		<opstatus timestamp="1454167129">unknown</opstatus>
 		<gps>8125462</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="140">
 		<name>1615</name>
@@ -1517,13 +1651,18 @@
 		<inservice>27 Jan 2016</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524769500">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1527087362">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453922400">unknown</opstatus>
 		<gps>8125463</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Parking"/>
+			<label id="2" name="Vehicle Description" value="2012 Ford E350"/>
+		</customdata>
 	</asset>
 	<asset id="81">
 		<name>1617</name>
@@ -1543,12 +1682,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524772671">in</stat>
+			<stat timestamp="1527033386">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452632977">unknown</opstatus>
 		<gps>8125310</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="85">
 		<name>1618</name>
@@ -1568,12 +1709,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524075822">in</stat>
+			<stat timestamp="1526932372">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452683509">unknown</opstatus>
 		<gps>8125320</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="109">
 		<name>1626</name>
@@ -1599,6 +1742,8 @@
 		<opstatus timestamp="1452949536">unknown</opstatus>
 		<gps>8125493</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="95">
 		<name>1632</name>
@@ -1624,6 +1769,8 @@
 		<opstatus timestamp="1452722611">unknown</opstatus>
 		<gps>8125455</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="96">
 		<name>1633</name>
@@ -1643,12 +1790,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524770211">in</stat>
+			<stat timestamp="1527078321">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452774756">unknown</opstatus>
 		<gps>8125492</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="122">
 		<name>1636</name>
@@ -1668,12 +1817,17 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524770827">out</stat>
+			<stat timestamp="1526932936">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453222169">unknown</opstatus>
 		<gps>8125505</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Street"/>
+			<label id="2" name="Vehicle Description" value="2006	Chevrolet	K3500"/>
+		</customdata>
 	</asset>
 	<asset id="102">
 		<name>1640</name>
@@ -1693,12 +1847,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524683949">in</stat>
+			<stat timestamp="1527097404">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452873418">unknown</opstatus>
 		<gps>8125496</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="151">
 		<name>1645</name>
@@ -1724,6 +1880,8 @@
 		<opstatus timestamp="1454181703">unknown</opstatus>
 		<gps>8125635</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="165">
 		<name>1650</name>
@@ -1743,12 +1901,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524774579">out</stat>
+			<stat timestamp="1527099582">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1455291788">unknown</opstatus>
 		<gps>8125933</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="132">
 		<name>1651</name>
@@ -1768,12 +1928,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523989676">out</stat>
+			<stat timestamp="1526328665">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453768646">unknown</opstatus>
 		<gps>8125647</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="131">
 		<name>1652</name>
@@ -1799,6 +1961,8 @@
 		<opstatus timestamp="1453767814">unknown</opstatus>
 		<gps>8125649</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="145">
 		<name>1653</name>
@@ -1824,6 +1988,8 @@
 		<opstatus timestamp="1454165342">unknown</opstatus>
 		<gps>8125634</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="133">
 		<name>1654</name>
@@ -1843,12 +2009,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524743736">in</stat>
+			<stat timestamp="1526053112">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453791289">unknown</opstatus>
 		<gps>8125644</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="185">
 		<name>1655</name>
@@ -1868,12 +2036,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524162286">in</stat>
+			<stat timestamp="1527005990">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1458913202">unknown</opstatus>
 		<gps>8125646</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="188">
 		<name>1656</name>
@@ -1893,12 +2063,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524773159">in</stat>
+			<stat timestamp="1527092688">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1459540282">unknown</opstatus>
 		<gps>8125526</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="184">
 		<name>1657</name>
@@ -1918,12 +2090,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524687306">in</stat>
+			<stat timestamp="1527091003">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1458826066">unknown</opstatus>
 		<gps>8125522</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="186">
 		<name>1658</name>
@@ -1943,12 +2117,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1522869729">in</stat>
+			<stat timestamp="1527091536">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1458928774">unknown</opstatus>
 		<gps>8125643</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="25">
 		<name>1661</name>
@@ -1958,22 +2134,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1661</exsid>
-		<mileage>38912</mileage>
+		<mileage>39420</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2007 Gillig 40ft</mfg>
 		<inservice>27 Mar 2014</inservice>
-		<inspdate id="75773" type="COL2225E-3.4.0">1524531948</inspdate>
+		<inspdate id="77369" type="COL2225E-3.4.0">1527073134</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524531693">in</stat>
+			<stat timestamp="1527038113">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524532074">unsat</opstatus>
+		<opstatus timestamp="1527073225">crit</opstatus>
 		<gps>8541654</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="16">
 		<name>1662</name>
@@ -1983,22 +2161,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1662</exsid>
-		<mileage>57446</mileage>
+		<mileage>58304</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2010 Gillig 40ft</mfg>
 		<inservice>26 Mar 2014</inservice>
-		<inspdate id="75940" type="COL2225F-3.4.0">1524738966</inspdate>
+		<inspdate id="77371" type="COL2225F-3.4.0">1527073161</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524767231">out</stat>
+			<stat timestamp="1527073912">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524774299">unsat</opstatus>
+		<opstatus timestamp="1527073544">unsat</opstatus>
 		<gps>8541598</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="20">
 		<name>1663</name>
@@ -2008,22 +2188,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1663</exsid>
-		<mileage>64087</mileage>
+		<mileage>66011</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2010 Gillig 40ft</mfg>
 		<inservice>27 Mar 2014</inservice>
-		<inspdate id="75983" type="COL2225G-3.4.0">1524769372</inspdate>
+		<inspdate id="77381" type="COL2225F-3.4.0">1527073718</inspdate>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524768103">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527086259">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524769698">unsat</opstatus>
+		<opstatus timestamp="1527074207">crit</opstatus>
 		<gps>8541509</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="30">
 		<name>1664</name>
@@ -2033,22 +2215,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1664</exsid>
-		<mileage>8945</mileage>
+		<mileage>8946</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2010 Gillig 40ft</mfg>
 		<inservice>28 Mar 2014</inservice>
-		<inspdate id="75960" type="COL2225F-3.4.0">1524742124</inspdate>
+		<inspdate id="76022" type="COL2225F-3.4.0">1524825984</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524755677">in</stat>
+			<stat timestamp="1524841013">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524742173">crit</opstatus>
+		<opstatus timestamp="1524826397">crit</opstatus>
 		<gps>8541658</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="1">
 		<name>1665</name>
@@ -2058,22 +2242,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1665</exsid>
-		<mileage>48818</mileage>
+		<mileage>50267</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2010 Gillig 40ft</mfg>
 		<inservice>24 Mar 2014</inservice>
-		<inspdate id="75952" type="COL2225F-3.4.0">1524740356</inspdate>
+		<inspdate id="77374" type="COL2225F-3.4.0">1527072904</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524767975">out</stat>
+			<stat timestamp="1527087142">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524741158">unsat</opstatus>
+		<opstatus timestamp="1527073766">unsat</opstatus>
 		<gps>8541511</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="148">
 		<name>1673</name>
@@ -2093,12 +2279,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523287287">out</stat>
+			<stat timestamp="1526401545">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454174380">unknown</opstatus>
 		<gps>8125633</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="149">
 		<name>1674</name>
@@ -2124,6 +2312,8 @@
 		<opstatus timestamp="1454177035">unknown</opstatus>
 		<gps>8125636</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="187">
 		<name>1697</name>
@@ -2143,12 +2333,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524770624">in</stat>
+			<stat timestamp="1527092726">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1459347924">unknown</opstatus>
 		<gps>8125528</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="196">
 		<name>1801</name>
@@ -2158,22 +2350,24 @@
 		<type id="0">Standard</type>
 		<subtype/>
 		<exsid></exsid>
-		<mileage>11292</mileage>
+		<mileage>12096</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>BYD</mfg>
 		<inservice>11 Nov 2016</inservice>
-		<inspdate id="75812" type="COL2225F-3.4.0">1524574112</inspdate>
+		<inspdate id="77258" type="COL2225F-3.4.0">1526900434</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524243615">in</stat>
+			<stat timestamp="1526900557">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524575063">crit</opstatus>
+		<opstatus timestamp="1526901393">crit</opstatus>
 		<gps>8173258</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="197">
 		<name>1802</name>
@@ -2183,22 +2377,24 @@
 		<type id="0">Standard</type>
 		<subtype/>
 		<exsid></exsid>
-		<mileage>6530</mileage>
+		<mileage>6639</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>BYD</mfg>
 		<inservice>11 Nov 2016</inservice>
-		<inspdate id="75858" type="COL2225F-3.4.0">1524652413</inspdate>
+		<inspdate id="76658" type="COL2225E-3.4.0">1525817166</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524750458">in</stat>
+			<stat timestamp="1525820988">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524652781">crit</opstatus>
+		<opstatus timestamp="1525817198">crit</opstatus>
 		<gps>8541656</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="174">
 		<name>1804</name>
@@ -2224,6 +2420,8 @@
 		<opstatus timestamp="1522181157">crit</opstatus>
 		<gps>8173250</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="199">
 		<name>1806</name>
@@ -2249,6 +2447,8 @@
 		<opstatus timestamp="1523316922">unsat</opstatus>
 		<gps>8173251</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="200">
 		<name>1807</name>
@@ -2258,22 +2458,24 @@
 		<type id="0">Standard</type>
 		<subtype/>
 		<exsid></exsid>
-		<mileage>12654</mileage>
+		<mileage>13633</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>BYD</mfg>
 		<inservice>11 Nov 2016</inservice>
-		<inspdate id="75961" type="COL2225F-3.4.0">1524741957</inspdate>
+		<inspdate id="77382" type="COL2225F-3.4.0">1527074464</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524771150">out</stat>
+			<stat timestamp="1526469394">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524742353">good</opstatus>
+		<opstatus timestamp="1527074886">crit</opstatus>
 		<gps>8541651</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="27">
 		<name>1808</name>
@@ -2283,22 +2485,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1808</exsid>
-		<mileage>31651</mileage>
+		<mileage>34995</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2011 Gillig 40ft</mfg>
 		<inservice>28 Mar 2014</inservice>
-		<inspdate id="75942" type="COL2225F-3.4.0">1524739616</inspdate>
+		<inspdate id="77240" type="COL2225E-3.4.0">1526670958</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
 			<stat timestamp="1523580656">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524740099">crit</opstatus>
+		<opstatus timestamp="1526899452">unsat</opstatus>
 		<gps>8541645</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="24">
 		<name>1809</name>
@@ -2308,22 +2512,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1809</exsid>
-		<mileage>211572</mileage>
+		<mileage>212076</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2011 Gillig 40ft</mfg>
 		<inservice>27 Mar 2014</inservice>
-		<inspdate id="75246" type="COL2225E-3.4.0">1523681867</inspdate>
+		<inspdate id="76686" type="COL2225E-3.4.0">1525783039</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
 			<stat timestamp="1522751043">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1523682543">unsat</opstatus>
+		<opstatus timestamp="1525863307">crit</opstatus>
 		<gps>8541655</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="31">
 		<name>1810</name>
@@ -2333,22 +2539,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1810</exsid>
-		<mileage>125956</mileage>
+		<mileage>129333</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2011 Gillig 35ft</mfg>
 		<inservice>28 Mar 2014</inservice>
-		<inspdate id="75955" type="COL2225F-3.4.0">1524740844</inspdate>
+		<inspdate id="77367" type="COL2225F-3.4.0">1527072285</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524773672">out</stat>
+			<stat timestamp="1527087399">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524774759">good</opstatus>
+		<opstatus timestamp="1527072540">unsat</opstatus>
 		<gps>8541653</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="115">
 		<name>1812</name>
@@ -2368,15 +2576,17 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524684454">out</stat>
+			<stat timestamp="1526394000">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452977665">unknown</opstatus>
 		<gps>8125502</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="228">
-		<name></name>
+		<name>1814</name>
 		<tag>222500060</tag>
 		<vin></vin>
 		<fleet>1814</fleet>
@@ -2399,6 +2609,8 @@
 		<opstatus timestamp="1506209332">unsat</opstatus>
 		<gps>8133671</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="161">
 		<name>1815</name>
@@ -2424,6 +2636,8 @@
 		<opstatus timestamp="1454785595">unknown</opstatus>
 		<gps>8125936</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="172">
 		<name>1817</name>
@@ -2443,12 +2657,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523376256">out</stat>
+			<stat timestamp="1526933876">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1456761171">unknown</opstatus>
 		<gps>8125520</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="201">
 		<name>1818</name>
@@ -2458,22 +2674,24 @@
 		<type id="0">Standard</type>
 		<subtype/>
 		<exsid></exsid>
-		<mileage>7956</mileage>
+		<mileage>6569</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>BYD</mfg>
 		<inservice>11 Nov 2016</inservice>
-		<inspdate id="71019" type="COL2225F-3.4.0">1517583387</inspdate>
+		<inspdate id="76964" type="COL2225G-3.4.0">1526323964</inspdate>
 		<yardstat>
 			<yard></yard>
 			<stat timestamp="0">unknown</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1521680909">crit</opstatus>
+		<opstatus timestamp="1526323983">crit</opstatus>
 		<gps>8133675</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="156">
 		<name>1823</name>
@@ -2493,12 +2711,41 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523562782">out</stat>
+			<stat timestamp="1525867236">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454771492">unknown</opstatus>
 		<gps>8125638</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="180">
+		<name>1831</name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>1831</fleet>
+		<type id="0">Standard</type>
+		<subtype id="14">SW Recyc Drop Off 55706571</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>Solid Waste - Grissum</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg>Kenworth</mfg>
+		<inservice>15 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard></yard>
+			<stat timestamp="0">unknown</stat>
+		</yardstat>
+		<status>1</status>
+		<opstatus timestamp="1457826291">unknown</opstatus>
+		<gps>8125464</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="147">
 		<name>1832</name>
@@ -2517,13 +2764,15 @@
 		<inservice>30 Jan 2016</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524758820">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1526987226">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454172613">unknown</opstatus>
 		<gps>8125637</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="129">
 		<name>1838</name>
@@ -2543,12 +2792,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524305493">out</stat>
+			<stat timestamp="1526921694">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453763761">unknown</opstatus>
 		<gps>8125650</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="162">
 		<name>1839</name>
@@ -2568,12 +2819,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524579894">out</stat>
+			<stat timestamp="1526310702">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454789047">unknown</opstatus>
 		<gps>8125524</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="74">
 		<name>1842</name>
@@ -2599,6 +2852,8 @@
 		<opstatus timestamp="1452610524">unknown</opstatus>
 		<gps>8125315</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="169">
 		<name>1845</name>
@@ -2624,6 +2879,8 @@
 		<opstatus timestamp="1455902068">unknown</opstatus>
 		<gps>8125931</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="168">
 		<name>1848</name>
@@ -2643,12 +2900,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524154002">out</stat>
+			<stat timestamp="1527016614">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1455378227">unknown</opstatus>
 		<gps>8125324</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="23">
 		<name>1851</name>
@@ -2658,22 +2917,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1851</exsid>
-		<mileage>15280</mileage>
+		<mileage>15334</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>1995 NewFlyer 40ft</mfg>
 		<inservice>27 Mar 2014</inservice>
-		<inspdate id="75313" type="COL2225F-3.4.0">1523888235</inspdate>
+		<inspdate id="76446" type="COL2225F-3.4.0">1525433727</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524153036">in</stat>
+			<stat timestamp="1527078947">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1523888269">crit</opstatus>
+		<opstatus timestamp="1525434011">crit</opstatus>
 		<gps>8541507</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="5">
 		<name>1852</name>
@@ -2683,22 +2944,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1852</exsid>
-		<mileage>9075</mileage>
+		<mileage>9291</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2000 NewFlyer 40ft</mfg>
 		<inservice>25 Mar 2014</inservice>
-		<inspdate id="75975" type="COL2225G-3.4.0">1524768567</inspdate>
+		<inspdate id="76863" type="COL2225F-3.4.0">1526042346</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524743463">out</stat>
+			<stat timestamp="1525979309">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524768654">crit</opstatus>
+		<opstatus timestamp="1526044180">crit</opstatus>
 		<gps>8541558</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="183">
 		<name>1853</name>
@@ -2724,6 +2987,8 @@
 		<opstatus timestamp="1457826362">unknown</opstatus>
 		<gps>8125469</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="150">
 		<name>1864</name>
@@ -2749,6 +3014,8 @@
 		<opstatus timestamp="1454180409">unknown</opstatus>
 		<gps>8125470</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="34">
 		<name>1870</name>
@@ -2774,6 +3041,8 @@
 		<opstatus timestamp="1500427351">crit</opstatus>
 		<gps>8541593</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="128">
 		<name>1878</name>
@@ -2793,12 +3062,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524747512">out</stat>
+			<stat timestamp="1527092095">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453762223">unknown</opstatus>
 		<gps>8125641</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="181">
 		<name>1879</name>
@@ -2818,12 +3089,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523041981">out</stat>
+			<stat timestamp="1526934112">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1457826315">unknown</opstatus>
 		<gps>8125466</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="15">
 		<name>1885</name>
@@ -2833,22 +3106,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1885</exsid>
-		<mileage>4448</mileage>
+		<mileage>4954</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2000 NewFlyer 40ft</mfg>
 		<inservice>26 Mar 2014</inservice>
-		<inspdate id="75981" type="COL2225G-3.4.0">1524769220</inspdate>
+		<inspdate id="76551" type="COL2225F-3.4.0">1525691664</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524743204">out</stat>
+			<stat timestamp="1525711514">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524769440">crit</opstatus>
+		<opstatus timestamp="1525734180">crit</opstatus>
 		<gps>8541583</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="9">
 		<name>1886</name>
@@ -2858,22 +3133,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1886</exsid>
-		<mileage>492</mileage>
+		<mileage>32742</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 40ft</mfg>
 		<inservice>26 Mar 2014</inservice>
-		<inspdate id="75980" type="COL2225G-3.4.0">1524769166</inspdate>
+		<inspdate id="76588" type="COL2225E-3.4.0">1525741278</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524744293">out</stat>
+			<stat timestamp="1526054954">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524769266">unsat</opstatus>
+		<opstatus timestamp="1525741412">unsat</opstatus>
 		<gps>8541783</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="17">
 		<name>1887</name>
@@ -2899,6 +3176,8 @@
 		<opstatus timestamp="1495747737">unsat</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="2">
 		<name>1888</name>
@@ -2908,22 +3187,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1888</exsid>
-		<mileage>25704</mileage>
+		<mileage>26650</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 40ft</mfg>
 		<inservice>24 Mar 2014</inservice>
-		<inspdate id="75987" type="COL2225G-3.4.0">1524769959</inspdate>
+		<inspdate id="76833" type="COL2225F-3.4.0">1526030884</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524739729">out</stat>
+			<stat timestamp="1526641171">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524770261">unsat</opstatus>
+		<opstatus timestamp="1526031079">unsat</opstatus>
 		<gps>8541439</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="8">
 		<name>1889</name>
@@ -2933,22 +3214,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1889</exsid>
-		<mileage>17331</mileage>
+		<mileage>19556</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 40ft</mfg>
 		<inservice>25 Mar 2014</inservice>
-		<inspdate id="75973" type="COL2225F-3.4.0">1524767230</inspdate>
+		<inspdate id="77195" type="COL2225E-3.4.0">1526670665</inspdate>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524770530">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526670144">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524767781">crit</opstatus>
+		<opstatus timestamp="1526670701">crit</opstatus>
 		<gps>8541789</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="12">
 		<name>1890</name>
@@ -2958,22 +3241,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1890</exsid>
-		<mileage>10612</mileage>
+		<mileage>11547</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 40ft</mfg>
 		<inservice>26 Mar 2014</inservice>
-		<inspdate id="75976" type="COL2225G-3.4.0">1524768732</inspdate>
+		<inspdate id="77366" type="COL2225F-3.4.0">1527072320</inspdate>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524744494">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1527074298">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524768756">crit</opstatus>
+		<opstatus timestamp="1527072465">unsat</opstatus>
 		<gps>8541600</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="11">
 		<name>1891</name>
@@ -2983,22 +3268,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1891</exsid>
-		<mileage>3252</mileage>
+		<mileage>3365</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 40ft</mfg>
 		<inservice>26 Mar 2014</inservice>
-		<inspdate id="75959" type="COL2225F-3.4.0">1524741861</inspdate>
+		<inspdate id="76868" type="COL2225F-3.4.0">1526063801</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524743367">out</stat>
+			<stat timestamp="1526415641">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524742171">crit</opstatus>
+		<opstatus timestamp="1526063933">crit</opstatus>
 		<gps>8541784</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="4">
 		<name>1892</name>
@@ -3008,22 +3295,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1892</exsid>
-		<mileage>77001</mileage>
+		<mileage>79339</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 30ft</mfg>
 		<inservice>25 Mar 2014</inservice>
-		<inspdate id="75965" type="COL2225G-3.4.0">1524747391</inspdate>
+		<inspdate id="77365" type="COL2225F-3.4.0">1527072288</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524768460">out</stat>
+			<stat timestamp="1527074374">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524747512">unsat</opstatus>
+		<opstatus timestamp="1527072303">unsat</opstatus>
 		<gps>8541162</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="10">
 		<name>1893</name>
@@ -3033,22 +3322,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1893</exsid>
-		<mileage>11285</mileage>
+		<mileage>12666</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 30ft</mfg>
 		<inservice>26 Mar 2014</inservice>
-		<inspdate id="75988" type="COL2225G-3.4.0">1524770233</inspdate>
+		<inspdate id="77385" type="COL2225F-3.4.0">1527081817</inspdate>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524770420">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527082240">out</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524773072">unsat</opstatus>
+		<opstatus timestamp="1527082422">crit</opstatus>
 		<gps>8541781</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="43">
 		<name>1894</name>
@@ -3058,22 +3349,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1894</exsid>
-		<mileage>11553</mileage>
+		<mileage>12302</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 30ft</mfg>
 		<inservice>02 Apr 2014</inservice>
-		<inspdate id="75794" type="COL2225G-3.4.0">1524567654</inspdate>
+		<inspdate id="77386" type="COL2225G-3.4.0">1527082539</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524745770">in</stat>
+			<stat timestamp="1527088386">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524567669">unsat</opstatus>
+		<opstatus timestamp="1527082912">unsat</opstatus>
 		<gps>8541785</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="6">
 		<name>1895</name>
@@ -3083,22 +3376,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1895</exsid>
-		<mileage>437</mileage>
+		<mileage>558</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 30ft</mfg>
 		<inservice>25 Mar 2014</inservice>
-		<inspdate id="75522" type="COL2225F-3.4.0">1524135575</inspdate>
+		<inspdate id="77269" type="COL2225F-3.4.0">1526911485</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
 			<stat timestamp="1519246243">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524135595">crit</opstatus>
+		<opstatus timestamp="1526911691">crit</opstatus>
 		<gps>8541581</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="7">
 		<name>1896</name>
@@ -3108,22 +3403,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1896</exsid>
-		<mileage>48934</mileage>
+		<mileage>50768</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 30ft</mfg>
 		<inservice>25 Mar 2014</inservice>
-		<inspdate id="75984" type="COL2225G-3.4.0">1524769673</inspdate>
+		<inspdate id="77286" type="COL2225F-3.4.0">1526933058</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524741572">out</stat>
+			<stat timestamp="1526946504">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524769702">crit</opstatus>
+		<opstatus timestamp="1526933597">unsat</opstatus>
 		<gps>8541779</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="3">
 		<name>1897</name>
@@ -3133,22 +3430,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1897</exsid>
-		<mileage>3160</mileage>
+		<mileage>6094</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 NewFlyer 30ft</mfg>
 		<inservice>25 Mar 2014</inservice>
-		<inspdate id="75598" type="COL2225E-3.4.0">1524008996</inspdate>
+		<inspdate id="77268" type="COL2225E-3.4.0">1526909415</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
 			<stat timestamp="1501155928">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524220495">crit</opstatus>
+		<opstatus timestamp="1526909634">crit</opstatus>
 		<gps>8541562</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="170">
 		<name>1898</name>
@@ -3168,12 +3467,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524595202">out</stat>
+			<stat timestamp="1527086420">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1455979812">unknown</opstatus>
 		<gps>8125934</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="155">
 		<name>1899</name>
@@ -3193,12 +3494,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524589606">out</stat>
+			<stat timestamp="1527005448">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454769474">unknown</opstatus>
 		<gps>8125949</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="154">
 		<name>1900</name>
@@ -3218,12 +3521,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1516882136">out</stat>
+			<stat timestamp="1525953037">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454767229">unknown</opstatus>
 		<gps>8125946</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="124">
 		<name>1908</name>
@@ -3243,12 +3548,17 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524770330">out</stat>
+			<stat timestamp="1527080318">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453306359">unknown</opstatus>
 		<gps>8125314</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Sewer"/>
+			<label id="2" name="Vehicle Description" value="2015 Chevrolet K1500"/>
+		</customdata>
 	</asset>
 	<asset id="143">
 		<name>1909</name>
@@ -3267,13 +3577,18 @@
 		<inservice>29 Jan 2016</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1523967357">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1527079578">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454070152">unknown</opstatus>
 		<gps>8125458</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Parking"/>
+			<label id="2" name="Vehicle Description" value="2002 Chevrolet K1500"/>
+		</customdata>
 	</asset>
 	<asset id="117">
 		<name>1917</name>
@@ -3293,12 +3608,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524163730">out</stat>
+			<stat timestamp="1526563177">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453205573">unknown</opstatus>
 		<gps>8125511</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="119">
 		<name>1918</name>
@@ -3318,12 +3635,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524493042">out</stat>
+			<stat timestamp="1526652460">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453210841">unknown</opstatus>
 		<gps>8125514</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="163">
 		<name>1921</name>
@@ -3349,6 +3668,8 @@
 		<opstatus timestamp="1454930013">unknown</opstatus>
 		<gps>8125937</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="138">
 		<name>1923</name>
@@ -3374,6 +3695,8 @@
 		<opstatus timestamp="1453848641">unknown</opstatus>
 		<gps>8125941</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="121">
 		<name>1924</name>
@@ -3399,6 +3722,8 @@
 		<opstatus timestamp="1453213654">unknown</opstatus>
 		<gps>8125932</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="160">
 		<name>1926</name>
@@ -3418,12 +3743,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524684901">out</stat>
+			<stat timestamp="1527084353">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454785130">unknown</opstatus>
 		<gps>8125948</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="123">
 		<name>1930</name>
@@ -3443,12 +3770,17 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524747276">in</stat>
+			<stat timestamp="1526928090">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453225967">unknown</opstatus>
 		<gps>8125457</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Street"/>
+			<label id="2" name="Vehicle Description" value="2004 Chevrolet K2500"/>
+		</customdata>
 	</asset>
 	<asset id="139">
 		<name>1932</name>
@@ -3468,12 +3800,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524771026">in</stat>
+			<stat timestamp="1527095907">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453852397">unknown</opstatus>
 		<gps>8125495</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="42">
 		<name>1937</name>
@@ -3483,22 +3817,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1937</exsid>
-		<mileage>248984</mileage>
+		<mileage>249586</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2004 Diamond Cutaway</mfg>
 		<inservice>02 Apr 2014</inservice>
-		<inspdate id="75967" type="COL2225H-3.4.0">1524750470</inspdate>
+		<inspdate id="77351" type="COL2225I-3.4.0">1527031326</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524769943">in</stat>
+			<stat timestamp="1527031804">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524750721">crit</opstatus>
+		<opstatus timestamp="1527031466">unsat</opstatus>
 		<gps>8541793</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="44">
 		<name>1938</name>
@@ -3508,22 +3844,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1938</exsid>
-		<mileage>51962</mileage>
+		<mileage>52539</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>BYD Electric Bus</mfg>
 		<inservice>01 Nov 2014</inservice>
-		<inspdate id="73258" type="COL2225F-3.4.0">1520854299</inspdate>
+		<inspdate id="77069" type="COL2225E-3.4.0">1526481804</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523471325">in</stat>
+			<stat timestamp="1526509935">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1520855150">crit</opstatus>
+		<opstatus timestamp="1526481913">crit</opstatus>
 		<gps>8541787</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="135">
 		<name>1939</name>
@@ -3542,38 +3880,18 @@
 		<inservice>26 Jan 2016</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524663282">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527080745">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453838525">unknown</opstatus>
 		<gps>8125645</gps>
 		<homeloi></homeloi>
-	</asset>
-	<asset id="180">
-		<name>1940</name>
-		<tag>0</tag>
-		<vin></vin>
-		<fleet>1940</fleet>
-		<type id="0">Standard</type>
-		<subtype id="14">SW Recyc Drop Off 55706571</subtype>
-		<exsid></exsid>
-		<mileage>0</mileage>
-		<location>Solid Waste - Grissum</location>
-		<mileoffset>0</mileoffset>
-		<enginehouroffset>0</enginehouroffset>
-		<radioaddress></radioaddress>
-		<mfg></mfg>
-		<inservice>12 Mar 2016</inservice>
-		<inspdate/>
-		<yardstat>
-			<yard></yard>
-			<stat timestamp="0">unknown</stat>
-		</yardstat>
-		<status>1</status>
-		<opstatus timestamp="1457826291">unknown</opstatus>
-		<gps>8125464</gps>
-		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Parking"/>
+			<label id="2" name="Vehicle Description" value="2005 Toyota Prius"/>
+		</customdata>
 	</asset>
 	<asset id="118">
 		<name>1941</name>
@@ -3593,12 +3911,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524749270">out</stat>
+			<stat timestamp="1527016566">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453210521">unknown</opstatus>
 		<gps>8125512</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="141">
 		<name>1942</name>
@@ -3624,6 +3944,8 @@
 		<opstatus timestamp="1453922530">unknown</opstatus>
 		<gps>8125632</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="120">
 		<name>1943</name>
@@ -3649,6 +3971,8 @@
 		<opstatus timestamp="1453210858">unknown</opstatus>
 		<gps>8125517</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="113">
 		<name>1944</name>
@@ -3668,12 +3992,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524590761">in</stat>
+			<stat timestamp="1527081626">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452965066">unknown</opstatus>
 		<gps>8125516</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="159">
 		<name>1945</name>
@@ -3693,12 +4019,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524750182">out</stat>
+			<stat timestamp="1527024741">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454780979">unknown</opstatus>
 		<gps>8125942</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="114">
 		<name>1946</name>
@@ -3718,12 +4046,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524491239">in</stat>
+			<stat timestamp="1527024692">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452965854">unknown</opstatus>
 		<gps>8125510</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="158">
 		<name>1947</name>
@@ -3743,12 +4073,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524747689">out</stat>
+			<stat timestamp="1526506833">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454777472">unknown</opstatus>
 		<gps>8125950</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="166">
 		<name>1948</name>
@@ -3768,12 +4100,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524753503">out</stat>
+			<stat timestamp="1526666015">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1455371153">unknown</opstatus>
 		<gps>8125323</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="176">
 		<name>1949</name>
@@ -3793,12 +4127,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523474746">in</stat>
+			<stat timestamp="1527097834">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1457826027">unknown</opstatus>
 		<gps>8581970</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="152">
 		<name>1955</name>
@@ -3817,13 +4153,15 @@
 		<inservice>30 Jan 2016</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524664113">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1526917971">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1454190255">unknown</opstatus>
 		<gps>8125947</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="178">
 		<name>1956</name>
@@ -3849,6 +4187,8 @@
 		<opstatus timestamp="1457826074">unknown</opstatus>
 		<gps>8125459</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="126">
 		<name>1957</name>
@@ -3868,12 +4208,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524762533">out</stat>
+			<stat timestamp="1527074028">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453751232">unknown</opstatus>
 		<gps>8125640</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="164">
 		<name>1958</name>
@@ -3893,12 +4235,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524568844">out</stat>
+			<stat timestamp="1527097168">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1455197822">unknown</opstatus>
 		<gps>8125523</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="189">
 		<name>1959</name>
@@ -3918,12 +4262,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524664582">out</stat>
+			<stat timestamp="1527081580">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1460589112">unknown</opstatus>
 		<gps>8125529</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="167">
 		<name>1960</name>
@@ -3949,6 +4295,8 @@
 		<opstatus timestamp="1455375909">unknown</opstatus>
 		<gps>8125935</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="171">
 		<name>1961</name>
@@ -3974,6 +4322,8 @@
 		<opstatus timestamp="1455982884">unknown</opstatus>
 		<gps>8125938</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="177">
 		<name>1962</name>
@@ -3999,6 +4349,8 @@
 		<opstatus timestamp="1457826054">unknown</opstatus>
 		<gps>8125454</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="182">
 		<name>1963</name>
@@ -4024,6 +4376,8 @@
 		<opstatus timestamp="1457826339">unknown</opstatus>
 		<gps>8125468</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="127">
 		<name>1964</name>
@@ -4043,37 +4397,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523885697">out</stat>
+			<stat timestamp="1526052179">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453760464">unknown</opstatus>
 		<gps>8125648</gps>
 		<homeloi></homeloi>
-	</asset>
-	<asset id="59">
-		<name>1965</name>
-		<tag>222500049</tag>
-		<vin>15GGD2717F1184197</vin>
-		<fleet>1965</fleet>
-		<type id="0">Standard</type>
-		<subtype/>
-		<exsid></exsid>
-		<mileage>73588</mileage>
-		<location>Transit</location>
-		<mileoffset>0</mileoffset>
-		<enginehouroffset>0</enginehouroffset>
-		<radioaddress></radioaddress>
-		<mfg></mfg>
-		<inservice>03 Apr 2015</inservice>
-		<inspdate id="75979" type="COL2225G-3.4.0">1524768922</inspdate>
-		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524741470">out</stat>
-		</yardstat>
-		<status>1</status>
-		<opstatus timestamp="1524769114">unsat</opstatus>
-		<gps>8083985</gps>
-		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="57">
 		<name></name>
@@ -4099,6 +4430,62 @@
 		<opstatus timestamp="1427738095">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="59">
+		<name>1965</name>
+		<tag>222500049</tag>
+		<vin>15GGD2717F1184197</vin>
+		<fleet>1965</fleet>
+		<type id="0">Standard</type>
+		<subtype/>
+		<exsid></exsid>
+		<mileage>76876</mileage>
+		<location>Transit</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>03 Apr 2015</inservice>
+		<inspdate id="77380" type="COL2225F-3.4.0">1527074087</inspdate>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527074271">out</stat>
+		</yardstat>
+		<status>1</status>
+		<opstatus timestamp="1527074102">crit</opstatus>
+		<gps>8083985</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="52">
+		<name>1966</name>
+		<tag>222500048</tag>
+		<vin>15GGD2719F1184198</vin>
+		<fleet>1966</fleet>
+		<type id="0">Standard</type>
+		<subtype/>
+		<exsid></exsid>
+		<mileage>141025</mileage>
+		<location>Transit</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>23 Mar 2015</inservice>
+		<inspdate id="77370" type="COL2225F-3.4.0">1527072645</inspdate>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527074307">out</stat>
+		</yardstat>
+		<status>1</status>
+		<opstatus timestamp="1527073371">unsat</opstatus>
+		<gps>8083987</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="50">
 		<name></name>
@@ -4124,31 +4511,8 @@
 		<opstatus timestamp="1426863899">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
-	</asset>
-	<asset id="52">
-		<name>1966</name>
-		<tag>222500048</tag>
-		<vin>15GGD2719F1184198</vin>
-		<fleet>1966</fleet>
-		<type id="0">Standard</type>
-		<subtype/>
-		<exsid></exsid>
-		<mileage>136962</mileage>
-		<location>Transit</location>
-		<mileoffset>0</mileoffset>
-		<enginehouroffset>0</enginehouroffset>
-		<radioaddress></radioaddress>
-		<mfg></mfg>
-		<inservice>23 Mar 2015</inservice>
-		<inspdate id="75064" type="COL2225G-3.4.0">1523473427</inspdate>
-		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524051183">out</stat>
-		</yardstat>
-		<status>1</status>
-		<opstatus timestamp="1523488652">good</opstatus>
-		<gps>8083987</gps>
-		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="130">
 		<name>1968</name>
@@ -4168,12 +4532,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524740830">out</stat>
+			<stat timestamp="1527073405">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453764797">unknown</opstatus>
 		<gps>8125642</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="13">
 		<name>1969</name>
@@ -4183,22 +4549,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1969</exsid>
-		<mileage>14949</mileage>
+		<mileage>15765</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2001 Gillig 40ft</mfg>
 		<inservice>26 Mar 2014</inservice>
-		<inspdate id="75964" type="COL2225F-3.4.0">1524746349</inspdate>
+		<inspdate id="77078" type="COL2225G-3.4.0">1526496048</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524754017">in</stat>
+			<stat timestamp="1526516274">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524746788">crit</opstatus>
+		<opstatus timestamp="1526496390">crit</opstatus>
 		<gps>8541591</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="14">
 		<name>1970</name>
@@ -4208,22 +4576,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1970</exsid>
-		<mileage>2420</mileage>
+		<mileage>3168</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2007 Gillig 40ft</mfg>
 		<inservice>26 Mar 2014</inservice>
-		<inspdate id="75972" type="COL2225E-3.4.0">1524767625</inspdate>
+		<inspdate id="76549" type="COL2225F-3.4.0">1525691678</inspdate>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524768044">out</stat>
+			<stat timestamp="1525702814">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524767645">crit</opstatus>
+		<opstatus timestamp="1525691769">crit</opstatus>
 		<gps>8541595</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="41">
 		<name>1971</name>
@@ -4249,6 +4619,8 @@
 		<opstatus timestamp="1464217332">good</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="45">
 		<name>1972</name>
@@ -4274,6 +4646,8 @@
 		<opstatus timestamp="1500507118">good</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="39">
 		<name>1973</name>
@@ -4299,6 +4673,8 @@
 		<opstatus timestamp="1522185882">good</opstatus>
 		<gps>8541594</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="40">
 		<name>1974</name>
@@ -4308,22 +4684,24 @@
 		<type id="0">Standard</type>
 		<subtype id="1">STANDARD</subtype>
 		<exsid>1974</exsid>
-		<mileage>190150</mileage>
+		<mileage>190323</mileage>
 		<location>Transit</location>
 		<mileoffset>0</mileoffset>
 		<enginehouroffset>0</enginehouroffset>
 		<radioaddress></radioaddress>
 		<mfg>2008 Ford E450</mfg>
 		<inservice>01 Apr 2014</inservice>
-		<inspdate id="75968" type="COL2225J-3.4.0">1524753486</inspdate>
+		<inspdate id="76866" type="COL2225J-3.4.0">1526061005</inspdate>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524773363">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527097118">in</stat>
 		</yardstat>
 		<status>1</status>
-		<opstatus timestamp="1524753627">crit</opstatus>
+		<opstatus timestamp="1526061097">crit</opstatus>
 		<gps>8541650</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="103">
 		<name>1975</name>
@@ -4343,12 +4721,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524770655">in</stat>
+			<stat timestamp="1527001614">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452877115">unknown</opstatus>
 		<gps>8125497</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="190">
 		<name>1976</name>
@@ -4368,12 +4748,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524774078">in</stat>
+			<stat timestamp="1527083284">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1461780565">unknown</opstatus>
 		<gps>8125525</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="87">
 		<name>1977</name>
@@ -4393,12 +4775,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523291072">in</stat>
+			<stat timestamp="1527003693">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452693903">unknown</opstatus>
 		<gps>8125328</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="75">
 		<name>1978</name>
@@ -4424,6 +4808,8 @@
 		<opstatus timestamp="1452613468">unknown</opstatus>
 		<gps>8125326</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="78">
 		<name>1979</name>
@@ -4449,6 +4835,8 @@
 		<opstatus timestamp="1452625326">unknown</opstatus>
 		<gps>8125316</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="89">
 		<name>1981</name>
@@ -4468,12 +4856,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1522656702">in</stat>
+			<stat timestamp="1525691791">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452700440">unknown</opstatus>
 		<gps>8125321</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="90">
 		<name>1982</name>
@@ -4493,12 +4883,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1521562774">in</stat>
+			<stat timestamp="1525963737">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452703664">unknown</opstatus>
 		<gps>8125325</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="88">
 		<name>1983</name>
@@ -4524,6 +4916,8 @@
 		<opstatus timestamp="1452697791">unknown</opstatus>
 		<gps>8125329</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="80">
 		<name>1984</name>
@@ -4543,12 +4937,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523285388">in</stat>
+			<stat timestamp="1527086337">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452630755">unknown</opstatus>
 		<gps>8125311</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="91">
 		<name>1985</name>
@@ -4568,12 +4964,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524572888">out</stat>
+			<stat timestamp="1527006658">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452706441">unknown</opstatus>
 		<gps>8125521</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="93">
 		<name>1986</name>
@@ -4593,12 +4991,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524765935">in</stat>
+			<stat timestamp="1526127310">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452714308">unknown</opstatus>
 		<gps>8125527</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="83">
 		<name>1987</name>
@@ -4618,12 +5018,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523636206">in</stat>
+			<stat timestamp="1527000885">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452637224">unknown</opstatus>
 		<gps>8125318</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="125">
 		<name>1988</name>
@@ -4643,12 +5045,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524600458">in</stat>
+			<stat timestamp="1527096610">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1453556457">unknown</opstatus>
 		<gps>8125639</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="2" name="Vehicle Description" value="2013 International 7400"/>
+		</customdata>
 	</asset>
 	<asset id="86">
 		<name>1989</name>
@@ -4668,12 +5074,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523473671">in</stat>
+			<stat timestamp="1527014513">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1452683938">unknown</opstatus>
 		<gps>8125513</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="175">
 		<name></name>
@@ -4699,6 +5107,8 @@
 		<opstatus timestamp="1457640737">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="278">
 		<name>200</name>
@@ -4718,12 +5128,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524661691">out</stat>
+			<stat timestamp="1526704322">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1496187714">unknown</opstatus>
 		<gps>8796025</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="258">
 		<name>201</name>
@@ -4743,12 +5155,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524684159">out</stat>
+			<stat timestamp="1526928869">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1492198430">unknown</opstatus>
 		<gps>8796453</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="217">
 		<name>203</name>
@@ -4768,12 +5182,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524678930">out</stat>
+			<stat timestamp="1526992964">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1487967641">unknown</opstatus>
 		<gps>8796602</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="215">
 		<name>204</name>
@@ -4793,12 +5209,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524509185">out</stat>
+			<stat timestamp="1526390160">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1487958420">unknown</opstatus>
 		<gps>8796603</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="262">
 		<name>205</name>
@@ -4818,12 +5236,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524676361">out</stat>
+			<stat timestamp="1526473531">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1492525097">unknown</opstatus>
 		<gps>8796467</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="284">
 		<name>206</name>
@@ -4843,12 +5263,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524765704">out</stat>
+			<stat timestamp="1525808208">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1499283388">unknown</opstatus>
 		<gps>8796128</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="288">
 		<name>208</name>
@@ -4868,12 +5290,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524232427">in</stat>
+			<stat timestamp="1525199399">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1500047374">unknown</opstatus>
 		<gps>8795818</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="241">
 		<name>210</name>
@@ -4893,12 +5319,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524754495">out</stat>
+			<stat timestamp="1527085209">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489503930">unknown</opstatus>
 		<gps>8796593</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Meter Reading"/>
+		</customdata>
 	</asset>
 	<asset id="266">
 		<name>214</name>
@@ -4918,12 +5348,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524584192">out</stat>
+			<stat timestamp="1527085987">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1493994183">unknown</opstatus>
 		<gps>8796460</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="250">
 		<name>224</name>
@@ -4943,12 +5375,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1522695018">out</stat>
+			<stat timestamp="1527089183">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1490633850">unknown</opstatus>
 		<gps>8796585</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="237">
 		<name>225</name>
@@ -4968,12 +5402,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524159421">out</stat>
+			<stat timestamp="1526668938">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489095355">unknown</opstatus>
 		<gps>8796028</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Locators"/>
+		</customdata>
 	</asset>
 	<asset id="302">
 		<name>226</name>
@@ -4993,12 +5431,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524598501">out</stat>
+			<stat timestamp="1526413085">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1508862734">unknown</opstatus>
 		<gps>8796142</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="233">
 		<name>229</name>
@@ -5018,12 +5460,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523454590">out</stat>
+			<stat timestamp="1526994746">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489005229">unknown</opstatus>
 		<gps>8796594</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="274">
 		<name>232</name>
@@ -5043,12 +5487,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524763376">out</stat>
+			<stat timestamp="1527098002">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1494949466">unknown</opstatus>
 		<gps>8796272</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="311">
 		<name>239</name>
@@ -5068,12 +5514,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524491668">out</stat>
+			<stat timestamp="1527005262">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1509725093">unknown</opstatus>
 		<gps>8793776</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="317">
 		<name>250</name>
@@ -5093,12 +5541,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524772142">in</stat>
+			<stat timestamp="1525206121">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1511970410">unknown</opstatus>
 		<gps>8793778</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="231">
 		<name>251</name>
@@ -5124,6 +5574,8 @@
 		<opstatus timestamp="1488899254">unknown</opstatus>
 		<gps>8796026</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="211">
 		<name>253</name>
@@ -5149,6 +5601,8 @@
 		<opstatus timestamp="1487946334">unknown</opstatus>
 		<gps>8796454</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="221">
 		<name>254</name>
@@ -5168,12 +5622,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524597181">out</stat>
+			<stat timestamp="1527081583">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488303682">unknown</opstatus>
 		<gps>8796597</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="293">
 		<name>258</name>
@@ -5192,13 +5648,17 @@
 		<inservice>01 Aug 2017</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Prison Complex</yard>
-			<stat timestamp="1524233840">out</stat>
+			<yard>Wanash</yard>
+			<stat timestamp="1527096931">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1501616605">unknown</opstatus>
 		<gps>8795809</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="209">
 		<name>259</name>
@@ -5218,12 +5678,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524671198">out</stat>
+			<stat timestamp="1526647863">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1487878610">unknown</opstatus>
 		<gps>8796616</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="301">
 		<name>260</name>
@@ -5243,12 +5705,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1521638044">out</stat>
+			<stat timestamp="1527087012">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1508427916">unknown</opstatus>
 		<gps>8796418</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="224">
 		<name>266</name>
@@ -5268,12 +5732,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524225414">out</stat>
+			<stat timestamp="1526041706">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488396659">unknown</opstatus>
 		<gps>8796031</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Storeroom"/>
+		</customdata>
 	</asset>
 	<asset id="292">
 		<name>269</name>
@@ -5293,12 +5761,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524747965">out</stat>
+			<stat timestamp="1527080182">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1501173645">unknown</opstatus>
 		<gps>8796147</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="243">
 		<name>274</name>
@@ -5318,12 +5790,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523968566">out</stat>
+			<stat timestamp="1526411850">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489674470">unknown</opstatus>
 		<gps>8796595</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="291">
 		<name>282</name>
@@ -5343,12 +5817,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524066384">out</stat>
+			<stat timestamp="1526560697">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1500648188">unknown</opstatus>
 		<gps>8795816</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="300">
 		<name>285</name>
@@ -5374,6 +5850,8 @@
 		<opstatus timestamp="1508333742">unknown</opstatus>
 		<gps>8796419</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="232">
 		<name>286</name>
@@ -5393,12 +5871,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524758442">out</stat>
+			<stat timestamp="1526913995">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488990916">unknown</opstatus>
 		<gps>8796024</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="229">
 		<name>288</name>
@@ -5418,12 +5898,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523552032">out</stat>
+			<stat timestamp="1526572534">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488816542">unknown</opstatus>
 		<gps>8796043</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="303">
 		<name>289</name>
@@ -5443,12 +5925,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524659587">out</stat>
+			<stat timestamp="1526675844">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1509116017">unknown</opstatus>
 		<gps>8796416</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Locators"/>
+		</customdata>
 	</asset>
 	<asset id="240">
 		<name>293</name>
@@ -5474,6 +5960,8 @@
 		<opstatus timestamp="1489432293">unknown</opstatus>
 		<gps>8796135</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="309">
 		<name>296</name>
@@ -5493,12 +5981,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523882637">out</stat>
+			<stat timestamp="1526936999">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1509634369">unknown</opstatus>
 		<gps>8796415</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="298">
 		<name>297</name>
@@ -5518,12 +6008,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524745611">out</stat>
+			<stat timestamp="1527082358">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1508172477">unknown</opstatus>
 		<gps>8796143</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Substation Technicians"/>
+		</customdata>
 	</asset>
 	<asset id="256">
 		<name>306</name>
@@ -5543,12 +6037,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524590208">out</stat>
+			<stat timestamp="1527077876">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1492106517">unknown</opstatus>
 		<gps>8796461</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="235">
 		<name>340</name>
@@ -5568,12 +6066,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1520524852">out</stat>
+			<stat timestamp="1527080101">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489014571">unknown</opstatus>
 		<gps>8796133</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="242">
 		<name>341</name>
@@ -5593,12 +6093,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524757654">out</stat>
+			<stat timestamp="1527081678">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489606570">unknown</opstatus>
 		<gps>8796137</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="246">
 		<name>342</name>
@@ -5624,6 +6126,8 @@
 		<opstatus timestamp="1490209293">unknown</opstatus>
 		<gps>8796138</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="297">
 		<name>359</name>
@@ -5643,12 +6147,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524597981">out</stat>
+			<stat timestamp="1527018455">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1506692588">unknown</opstatus>
 		<gps>8796139</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="280">
 		<name>369</name>
@@ -5668,12 +6176,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524234015">out</stat>
+			<stat timestamp="1526652438">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1498072366">unknown</opstatus>
 		<gps>8796038</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Substation Technicians"/>
+		</customdata>
 	</asset>
 	<asset id="230">
 		<name>416</name>
@@ -5693,12 +6205,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524771740">out</stat>
+			<stat timestamp="1526669994">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488827244">unknown</opstatus>
 		<gps>8796030</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="213">
 		<name>417</name>
@@ -5718,12 +6232,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524747163">out</stat>
+			<stat timestamp="1527079110">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1487951488">unknown</opstatus>
 		<gps>8796456</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="304">
 		<name>422</name>
@@ -5743,12 +6259,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524247106">out</stat>
+			<stat timestamp="1526931296">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1509122309">unknown</opstatus>
 		<gps>8796417</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Meter Reading"/>
+		</customdata>
 	</asset>
 	<asset id="219">
 		<name>426</name>
@@ -5768,12 +6288,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524487518">out</stat>
+			<stat timestamp="1525874863">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488225695">unknown</opstatus>
 		<gps>8796599</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Vegetation Management"/>
+		</customdata>
 	</asset>
 	<asset id="270">
 		<name>427</name>
@@ -5793,12 +6317,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1522350187">out</stat>
+			<stat timestamp="1526415372">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1494425792">unknown</opstatus>
 		<gps>8796041</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="212">
 		<name>430</name>
@@ -5817,13 +6343,15 @@
 		<inservice>24 Feb 2017</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1524769505">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526412155">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1487949470">unknown</opstatus>
 		<gps>8796459</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="247">
 		<name>435</name>
@@ -5849,6 +6377,10 @@
 		<opstatus timestamp="1490287075">unknown</opstatus>
 		<gps>8796587</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="249">
 		<name>443</name>
@@ -5868,12 +6400,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524664834">out</stat>
+			<stat timestamp="1527079742">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1490387931">unknown</opstatus>
 		<gps>8796592</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="238">
 		<name>444</name>
@@ -5893,12 +6427,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524682590">out</stat>
+			<stat timestamp="1526916027">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489160556">unknown</opstatus>
 		<gps>8796134</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="210">
 		<name>445</name>
@@ -5918,12 +6456,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524769543">out</stat>
+			<stat timestamp="1526939194">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1487885701">unknown</opstatus>
 		<gps>8796539</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="220">
 		<name>449</name>
@@ -5943,12 +6483,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524239688">out</stat>
+			<stat timestamp="1526993989">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488227907">unknown</opstatus>
 		<gps>8796601</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="223">
 		<name>454</name>
@@ -5968,12 +6510,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523630981">out</stat>
+			<stat timestamp="1527082645">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488381378">unknown</opstatus>
 		<gps>8796598</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Substation Technicians"/>
+		</customdata>
 	</asset>
 	<asset id="259">
 		<name>461</name>
@@ -5993,12 +6539,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524664634">out</stat>
+			<stat timestamp="1526931092">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1492446210">unknown</opstatus>
 		<gps>8796458</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Meter Shop"/>
+		</customdata>
 	</asset>
 	<asset id="283">
 		<name>462</name>
@@ -6024,6 +6574,10 @@
 		<opstatus timestamp="1498850011">unknown</opstatus>
 		<gps>8796141</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="245">
 		<name>463</name>
@@ -6043,12 +6597,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524757602">out</stat>
+			<stat timestamp="1527080309">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1490208910">unknown</opstatus>
 		<gps>8796588</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="216">
 		<name>464</name>
@@ -6068,12 +6624,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524513800">out</stat>
+			<stat timestamp="1526652980">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1487960116">unknown</opstatus>
 		<gps>8796445</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Locators"/>
+		</customdata>
 	</asset>
 	<asset id="248">
 		<name>465</name>
@@ -6099,6 +6659,10 @@
 		<opstatus timestamp="1490363181">unknown</opstatus>
 		<gps>8796589</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Storeroom"/>
+		</customdata>
 	</asset>
 	<asset id="260">
 		<name>469</name>
@@ -6118,12 +6682,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523535127">out</stat>
+			<stat timestamp="1527082639">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1492476283">unknown</opstatus>
 		<gps>8796447</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Substation Technicians"/>
+		</customdata>
 	</asset>
 	<asset id="275">
 		<name>471</name>
@@ -6143,12 +6711,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524147657">out</stat>
+			<stat timestamp="1527080089">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1494957322">unknown</opstatus>
 		<gps>8796035</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Storeroom"/>
+		</customdata>
 	</asset>
 	<asset id="261">
 		<name>474</name>
@@ -6168,12 +6740,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524062023">out</stat>
+			<stat timestamp="1526916413">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1492523768">unknown</opstatus>
 		<gps>8796446</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="306">
 		<name>476</name>
@@ -6193,12 +6767,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523890324">out</stat>
+			<stat timestamp="1526393523">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1509462682">unknown</opstatus>
 		<gps>8796422</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Communication Technicians"/>
+		</customdata>
 	</asset>
 	<asset id="315">
 		<name>482</name>
@@ -6224,6 +6802,10 @@
 		<opstatus timestamp="1510246840">unknown</opstatus>
 		<gps>8796409</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Communication Technicians"/>
+		</customdata>
 	</asset>
 	<asset id="236">
 		<name>485</name>
@@ -6243,12 +6825,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Wanash</yard>
-			<stat timestamp="1524678972">out</stat>
+			<stat timestamp="1525975398">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489095091">unknown</opstatus>
 		<gps>8796590</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="310">
 		<name>488</name>
@@ -6268,12 +6852,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524756568">out</stat>
+			<stat timestamp="1526302457">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1509650450">unknown</opstatus>
 		<gps>8796414</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Communication Technicians"/>
+		</customdata>
 	</asset>
 	<asset id="316">
 		<name>489</name>
@@ -6299,6 +6887,8 @@
 		<opstatus timestamp="1511361878">unknown</opstatus>
 		<gps>8796411</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="289">
 		<name>492</name>
@@ -6318,12 +6908,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524675645">out</stat>
+			<stat timestamp="1526663480">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1500394036">unknown</opstatus>
 		<gps>8796129</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Service Workers"/>
+		</customdata>
 	</asset>
 	<asset id="214">
 		<name>497</name>
@@ -6343,12 +6937,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524754183">out</stat>
+			<stat timestamp="1526651354">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1487951989">unknown</opstatus>
 		<gps>8796450</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="299">
 		<name>498</name>
@@ -6374,6 +6970,8 @@
 		<opstatus timestamp="1508250505">unknown</opstatus>
 		<gps>8796421</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="296">
 		<name>499</name>
@@ -6393,12 +6991,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1518530356">out</stat>
+			<stat timestamp="1526908978">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1506530927">unknown</opstatus>
 		<gps>8796140</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="295">
 		<name>501</name>
@@ -6418,12 +7020,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Wanash</yard>
-			<stat timestamp="1524094399">out</stat>
+			<stat timestamp="1526660535">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1504277200">unknown</opstatus>
 		<gps>8796462</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="314">
 		<name>503</name>
@@ -6443,12 +7047,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524661507">out</stat>
+			<stat timestamp="1526406963">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1510241073">unknown</opstatus>
 		<gps>8796406</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="265">
 		<name>505</name>
@@ -6468,12 +7074,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524500848">out</stat>
+			<stat timestamp="1526668713">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1493931405">unknown</opstatus>
 		<gps>8793761</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="234">
 		<name>509</name>
@@ -6493,12 +7103,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524594711">out</stat>
+			<stat timestamp="1527018470">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489009552">unknown</opstatus>
 		<gps>8796029</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="264">
 		<name>515</name>
@@ -6518,12 +7132,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524772666">out</stat>
+			<stat timestamp="1527099643">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1493304750">unknown</opstatus>
 		<gps>8796448</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="239">
 		<name>516</name>
@@ -6543,12 +7159,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523971004">out</stat>
+			<stat timestamp="1525957031">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1489426948">unknown</opstatus>
 		<gps>8796136</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="282">
 		<name>524</name>
@@ -6568,12 +7188,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524173740">out</stat>
+			<stat timestamp="1527077951">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1498743010">unknown</opstatus>
 		<gps>8796042</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Electric Services Superintendent"/>
+		</customdata>
 	</asset>
 	<asset id="225">
 		<name>526</name>
@@ -6593,12 +7217,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1523471012">out</stat>
+			<stat timestamp="1527020132">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488397126">unknown</opstatus>
 		<gps>8796027</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Vegetation Management"/>
+		</customdata>
 	</asset>
 	<asset id="257">
 		<name>527</name>
@@ -6624,6 +7252,8 @@
 		<opstatus timestamp="1492122034">unknown</opstatus>
 		<gps>8796131</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="286">
 		<name>529</name>
@@ -6643,12 +7273,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524661478">out</stat>
+			<stat timestamp="1527081519">in</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1499886098">unknown</opstatus>
 		<gps>8796130</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="307">
 		<name>531</name>
@@ -6668,12 +7302,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524746964">out</stat>
+			<stat timestamp="1526996352">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1509470453">unknown</opstatus>
 		<gps>8795820</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="218">
 		<name>532</name>
@@ -6699,6 +7337,10 @@
 		<opstatus timestamp="1488225118">unknown</opstatus>
 		<gps>8796617</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="271">
 		<name>533</name>
@@ -6718,12 +7360,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524497449">out</stat>
+			<stat timestamp="1527081641">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1494439951">unknown</opstatus>
 		<gps>8796452</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="227">
 		<name>535</name>
@@ -6743,12 +7387,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524661253">out</stat>
+			<stat timestamp="1526996781">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1488470572">unknown</opstatus>
 		<gps>8796600</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Service Workers"/>
+		</customdata>
 	</asset>
 	<asset id="290">
 		<name>536</name>
@@ -6768,12 +7416,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524488295">out</stat>
+			<stat timestamp="1526909186">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1500588628">unknown</opstatus>
 		<gps>8795808</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="287">
 		<name>537</name>
@@ -6793,12 +7445,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524489834">out</stat>
+			<stat timestamp="1527081871">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1500034719">unknown</opstatus>
 		<gps>8795813</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="276">
 		<name>539</name>
@@ -6818,12 +7474,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524248332">out</stat>
+			<stat timestamp="1527077977">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1495046436">unknown</opstatus>
 		<gps>8796457</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Locators"/>
+		</customdata>
 	</asset>
 	<asset id="272">
 		<name>541</name>
@@ -6843,12 +7503,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524667685">out</stat>
+			<stat timestamp="1526995685">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1494606994">unknown</opstatus>
 		<gps>8796039</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Service Workers"/>
+		</customdata>
 	</asset>
 	<asset id="253">
 		<name>542</name>
@@ -6868,12 +7532,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524599529">out</stat>
+			<stat timestamp="1526917314">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1490809436">unknown</opstatus>
 		<gps>8796449</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Meter Reading"/>
+		</customdata>
 	</asset>
 	<asset id="277">
 		<name>543</name>
@@ -6893,12 +7561,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524592987">out</stat>
+			<stat timestamp="1526472882">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1495738170">unknown</opstatus>
 		<gps>8796033</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Service Workers"/>
+		</customdata>
 	</asset>
 	<asset id="305">
 		<name>544</name>
@@ -6924,6 +7596,10 @@
 		<opstatus timestamp="1509122993">unknown</opstatus>
 		<gps>8796426</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Service Workers"/>
+		</customdata>
 	</asset>
 	<asset id="268">
 		<name>547</name>
@@ -6943,12 +7619,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524067945">out</stat>
+			<stat timestamp="1527004768">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1494347938">unknown</opstatus>
 		<gps>8796034</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="269">
 		<name>548</name>
@@ -6967,13 +7645,15 @@
 		<inservice>09 May 2017</inservice>
 		<inspdate/>
 		<yardstat>
-			<yard>Wanash</yard>
-			<stat timestamp="1523886452">out</stat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1527027199">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1494353061">unknown</opstatus>
 		<gps>8796036</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="267">
 		<name>549</name>
@@ -6999,6 +7679,8 @@
 		<opstatus timestamp="1494340736">unknown</opstatus>
 		<gps>8796032</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="308">
 		<name>550</name>
@@ -7018,12 +7700,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524152565">out</stat>
+			<stat timestamp="1526052298">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1509546630">unknown</opstatus>
 		<gps>8796420</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="279">
 		<name>551</name>
@@ -7043,12 +7727,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524607014">out</stat>
+			<stat timestamp="1526677194">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1498059526">unknown</opstatus>
 		<gps>8796037</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="273">
 		<name>555</name>
@@ -7068,12 +7754,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524666512">out</stat>
+			<stat timestamp="1527077294">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1494622815">unknown</opstatus>
 		<gps>8796040</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Utility Service Workers"/>
+		</customdata>
 	</asset>
 	<asset id="244">
 		<name>562</name>
@@ -7093,12 +7783,16 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524664856">out</stat>
+			<stat timestamp="1527080856">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1490205551">unknown</opstatus>
 		<gps>8796596</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata>
+			<label id="1" name="Department" value="Line Department"/>
+		</customdata>
 	</asset>
 	<asset id="318">
 		<name>567</name>
@@ -7118,12 +7812,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524153624">out</stat>
+			<stat timestamp="1526570928">out</stat>
 		</yardstat>
 		<status>1</status>
 		<opstatus timestamp="1516206837">unknown</opstatus>
 		<gps>8796146</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="255">
 		<name></name>
@@ -7149,6 +7845,8 @@
 		<opstatus timestamp="1492012652">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="64">
 		<name></name>
@@ -7174,6 +7872,8 @@
 		<opstatus timestamp="1433354589">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="68">
 		<name></name>
@@ -7199,6 +7899,8 @@
 		<opstatus timestamp="1437514218">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="70">
 		<name></name>
@@ -7224,6 +7926,8 @@
 		<opstatus timestamp="1442925846">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="66">
 		<name></name>
@@ -7249,6 +7953,8 @@
 		<opstatus timestamp="1435755155">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="67">
 		<name></name>
@@ -7274,6 +7980,8 @@
 		<opstatus timestamp="1437514204">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="69">
 		<name></name>
@@ -7299,6 +8007,8 @@
 		<opstatus timestamp="1440018710">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="71">
 		<name></name>
@@ -7324,6 +8034,8 @@
 		<opstatus timestamp="1445022671">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="72">
 		<name></name>
@@ -7349,6 +8061,8 @@
 		<opstatus timestamp="1445022743">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="65">
 		<name></name>
@@ -7374,6 +8088,8 @@
 		<opstatus timestamp="1433422283">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="49">
 		<name></name>
@@ -7399,6 +8115,8 @@
 		<opstatus timestamp="1426851739">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="54">
 		<name></name>
@@ -7424,6 +8142,8 @@
 		<opstatus timestamp="1427384915">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="55">
 		<name></name>
@@ -7449,6 +8169,8 @@
 		<opstatus timestamp="1427384982">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="56">
 		<name></name>
@@ -7474,6 +8196,8 @@
 		<opstatus timestamp="1427385187">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="226">
 		<name></name>
@@ -7499,6 +8223,8 @@
 		<opstatus timestamp="1488466433">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="294">
 		<name></name>
@@ -7518,12 +8244,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524146399">in</stat>
+			<stat timestamp="1526913390">in</stat>
 		</yardstat>
 		<status>2</status>
 		<opstatus timestamp="1502956524">unknown</opstatus>
 		<gps>8167669</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="206">
 		<name></name>
@@ -7549,6 +8277,8 @@
 		<opstatus timestamp="1484082961">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="204">
 		<name></name>
@@ -7574,6 +8304,8 @@
 		<opstatus timestamp="1483045732">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="205">
 		<name></name>
@@ -7599,6 +8331,8 @@
 		<opstatus timestamp="1483559551">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="207">
 		<name></name>
@@ -7624,6 +8358,8 @@
 		<opstatus timestamp="1485982916">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="208">
 		<name></name>
@@ -7649,6 +8385,8 @@
 		<opstatus timestamp="1485988311">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="73">
 		<name></name>
@@ -7674,6 +8412,8 @@
 		<opstatus timestamp="1445348710">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="192">
 		<name></name>
@@ -7699,6 +8439,89 @@
 		<opstatus timestamp="1468884190">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="327">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8793769</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>12 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526994631">out</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1526139332">unknown</opstatus>
+		<gps>8793769</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="329">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8793774</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>12 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526651053">out</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1526142590">unknown</opstatus>
+		<gps>8793774</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="325">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8793775</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>12 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard></yard>
+			<stat timestamp="0">unknown</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1526131721">unknown</opstatus>
+		<gps>8793775</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="321">
 		<name></name>
@@ -7718,12 +8541,122 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524498691">out</stat>
+			<stat timestamp="1527016351">out</stat>
 		</yardstat>
 		<status>2</status>
 		<opstatus timestamp="1524171490">unknown</opstatus>
 		<gps>8793777</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="324">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8793782</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>12 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526480418">out</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1526129809">unknown</opstatus>
+		<gps>8793782</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="328">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8795814</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>12 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526302610">out</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1526140864">unknown</opstatus>
+		<gps>8795814</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="326">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8795821</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>12 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526664178">out</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1526133073">unknown</opstatus>
+		<gps>8795821</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="323">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8795822</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>12 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard></yard>
+			<stat timestamp="0">unknown</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1526127049">unknown</opstatus>
+		<gps>8795822</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="222">
 		<name></name>
@@ -7749,6 +8682,8 @@
 		<opstatus timestamp="1488312243">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="320">
 		<name></name>
@@ -7768,12 +8703,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1522425544">out</stat>
+			<stat timestamp="1526658352">out</stat>
 		</yardstat>
 		<status>2</status>
 		<opstatus timestamp="1522280090">unknown</opstatus>
 		<gps>8796144</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="312">
 		<name></name>
@@ -7793,12 +8730,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524157092">out</stat>
+			<stat timestamp="1526669979">out</stat>
 		</yardstat>
 		<status>2</status>
 		<opstatus timestamp="1509997293">unknown</opstatus>
 		<gps>8796400</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="319">
 		<name></name>
@@ -7818,12 +8757,41 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524491218">out</stat>
+			<stat timestamp="1527012553">out</stat>
 		</yardstat>
 		<status>2</status>
 		<opstatus timestamp="1519404080">unknown</opstatus>
 		<gps>8796407</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="330">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8796408</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>14 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard>Prison Complex</yard>
+			<stat timestamp="1526395511">out</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1526301263">unknown</opstatus>
+		<gps>8796408</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="313">
 		<name></name>
@@ -7843,12 +8811,41 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524486230">out</stat>
+			<stat timestamp="1526909092">out</stat>
 		</yardstat>
 		<status>2</status>
 		<opstatus timestamp="1510091623">unknown</opstatus>
 		<gps>8796410</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
+	</asset>
+	<asset id="322">
+		<name></name>
+		<tag>0</tag>
+		<vin></vin>
+		<fleet>AUTO 8796413</fleet>
+		<type id="-2">Unknown</type>
+		<subtype id="-2">Auto-Created Sub-Type</subtype>
+		<exsid></exsid>
+		<mileage>0</mileage>
+		<location>UNKNOWN</location>
+		<mileoffset>0</mileoffset>
+		<enginehouroffset>0</enginehouroffset>
+		<radioaddress></radioaddress>
+		<mfg></mfg>
+		<inservice>04 May 2018</inservice>
+		<inspdate/>
+		<yardstat>
+			<yard></yard>
+			<stat timestamp="0">unknown</stat>
+		</yardstat>
+		<status>2</status>
+		<opstatus timestamp="1525467170">unknown</opstatus>
+		<gps>8796413</gps>
+		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="263">
 		<name></name>
@@ -7868,12 +8865,14 @@
 		<inspdate/>
 		<yardstat>
 			<yard>Prison Complex</yard>
-			<stat timestamp="1524406095">out</stat>
+			<stat timestamp="1527077033">out</stat>
 		</yardstat>
 		<status>2</status>
 		<opstatus timestamp="1492610885">unknown</opstatus>
 		<gps>8796451</gps>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="252">
 		<name></name>
@@ -7899,6 +8898,8 @@
 		<opstatus timestamp="1490699976">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="251">
 		<name></name>
@@ -7924,6 +8925,8 @@
 		<opstatus timestamp="1490699793">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="58">
 		<name></name>
@@ -7949,6 +8952,8 @@
 		<opstatus timestamp="1441103635">good</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="179">
 		<name>x1959</name>
@@ -7974,6 +8979,8 @@
 		<opstatus timestamp="1457826091">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="281">
 		<name>xxxxxx</name>
@@ -7999,6 +9006,8 @@
 		<opstatus timestamp="1498583731">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 	<asset id="285">
 		<name></name>
@@ -8024,5 +9033,7 @@
 		<opstatus timestamp="1499368337">unknown</opstatus>
 		<gps/>
 		<homeloi></homeloi>
+		<zid></zid>
+		<customdata/>
 	</asset>
 </assetlist>

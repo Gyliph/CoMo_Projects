@@ -46,16 +46,24 @@ class delayZonar:
             prev_time_file = self.pathTo + "prev_time.log"
             try:
                 lookupxml = self.pathTo + "lookupxml.xml"
-                xml_url = "https://col2225.zonarsystems.net/interface.php?action=showopen&operation=showassets&username=" + self.auth["username"] + "&password=" + self.auth["password"] + "&format=xml"
+                xml_url = "https://col2225.zonarsystems.net/interface.php?action=showopen&operation=showassets&username=" + self.auth["username"] + "&password=" + self.auth["password"] + "&format=xml&version=2&logvers=3.6"
                 urllib.urlretrieve(xml_url, lookupxml)
                 tree = ET.parse(lookupxml)
                 root = tree.getroot()
                 lookuploc = {}
                 lookupstype = {}
+                lookupdep = {}
                 for member in root.findall('asset'):
                     fleet = member.find('fleet').text
                     location = member.find('location').text
                     subtype = member.find('subtype').text
+                    custom = member.find('customdata')
+                    lookupdep[fleet] = 'None'
+                    for label in custom.findall('label'):
+                        dep = label.get('name')
+                        val = label.get('value')
+                        if(dep == 'Department'):
+                            lookupdep[fleet] = val
                     lookuploc[fleet] = location
                     lookupstype[fleet] = subtype
             except Exception as e:
@@ -135,7 +143,7 @@ class delayZonar:
                 f = wlout1
                 csvinputs = [wlout2, wlout3, wlout4, wlout5]
                 self.appendCsvs(f, csvinputs, wlout6)
-                self.writeToOutput(wlout6, wlout, lookuploc, lookupstype)
+                self.writeToOutput(wlout6, wlout, lookuploc, lookupstype, lookupdep)
                 os.remove(wlout1)
                 os.remove(wlout3)
                 os.remove(wlout2)
@@ -158,7 +166,7 @@ class delayZonar:
                 sewerurl = "http://col2225.zonarsystems.net/interface.php?%s" % req_params
 
                 urllib.urlretrieve(sewerurl, sewerout1)
-                self.writeToOutput(sewerout1, sewerout, lookuploc, lookupstype)
+                self.writeToOutput(sewerout1, sewerout, lookuploc, lookupstype, lookupdep)
                 runlog.write("Sewer Imported\n")
                 os.remove(sewerout1)
             except Exception as e:
@@ -187,7 +195,7 @@ class delayZonar:
                 fstreets = streetout1
                 streetinputs = [streetout2]
                 self.appendCsvs(fstreets, streetinputs, streetout3)
-                self.writeToOutput(streetout3, streetout4, lookuploc, lookupstype)
+                self.writeToOutput(streetout3, streetout4, lookuploc, lookupstype, lookupdep)
                 os.remove(streetout1)
                 os.remove(streetout2)
                 os.remove(streetout3)
@@ -207,7 +215,7 @@ class delayZonar:
                 solidurl = "http://col2225.zonarsystems.net/interface.php?%s" % req_params
 
                 urllib.urlretrieve(solidurl, solidout1)
-                self.writeToOutput(solidout1, solidout, lookuploc, lookupstype)
+                self.writeToOutput(solidout1, solidout, lookuploc, lookupstype, lookupdep)
                 os.remove(solidout1)
                 runlog.write("Solid Imported\n")
             except Exception as e:
@@ -226,7 +234,7 @@ class delayZonar:
             self.writeError("Failed main loop at {1}: {0}\n".format(str(e), str(time.time())))
 
     #function called by looper to writeoutput for each vehicle to csvs
-    def writeToOutput(self, out, write, lookuploc, lookupstype):
+    def writeToOutput(self, out, write, lookuploc, lookupstype, lookupdep):
         with open(out, 'rb') as fileIn:
             with open(write, 'wb') as fileOut:
                 reader = csv.reader(fileIn)
@@ -235,6 +243,7 @@ class delayZonar:
                 row = reader.next()
                 row.append('Location')
                 row.append('Subtype')
+                row.append('Department')
                 for x in range(0,12):
                     del row[17]
                 rowWriter.append(row)
@@ -242,6 +251,7 @@ class delayZonar:
                     if(len(row) == 29):
                         row.append(lookuploc[row[1]])
                         row.append(lookupstype[row[1]])
+                        row.append(lookupdep[row[1]])
                         ept = int(row[3])
                         convt = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(ept))
                         row[2] = convt

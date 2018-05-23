@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<error ver="1.0">
+	<action>showposition</action>
+	<code>201</code>
+	<message>Customer col2225 is not valid</message>
+</error>
